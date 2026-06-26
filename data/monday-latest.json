@@ -1,0 +1,89 @@
+{
+  "generated_from": "Monday.com connector",
+  "boards": {
+    "prospects": {
+      "name": "New unit Hot Prospects",
+      "url": "https://capitolareacouncil564.monday.com/boards/8502314751",
+      "updated_at": "2026-06-25T18:07:55Z",
+      "items": 196,
+      "status": [
+        { "label": "Qualified Prospect", "count": 165 },
+        { "label": "Stuck", "count": 28 },
+        { "label": "New", "count": 2 },
+        { "label": "Unlabeled", "count": 1 }
+      ],
+      "districts": [
+        { "label": "San Gabriel", "count": 27 },
+        { "label": "Armadillo", "count": 22 },
+        { "label": "North Shore", "count": 18 },
+        { "label": "Exploring", "count": 18 },
+        { "label": "Chisholm Trail", "count": 17 },
+        { "label": "Bee Cave", "count": 16 },
+        { "label": "Thunderbird", "count": 15 },
+        { "label": "Live Oak", "count": 15 },
+        { "label": "Hill Country", "count": 13 },
+        { "label": "Sacred Springs", "count": 11 },
+        { "label": "Colorado River", "count": 11 },
+        { "label": "Unassigned", "count": 9 },
+        { "label": "Scoutreach", "count": 4 }
+      ],
+      "projected_start_months": [
+        { "label": "Unscheduled", "count": 72 },
+        { "label": "September 2026", "count": 31 },
+        { "label": "May 2027", "count": 27 },
+        { "label": "January 2027", "count": 14 },
+        { "label": "February 2027", "count": 12 },
+        { "label": "March 2027", "count": 8 },
+        { "label": "December 2026", "count": 7 },
+        { "label": "August 2026", "count": 6 },
+        { "label": "June 2026", "count": 6 },
+        { "label": "October 2026", "count": 5 },
+        { "label": "April 2027", "count": 3 },
+        { "label": "November 2026", "count": 3 },
+        { "label": "July 2026", "count": 1 },
+        { "label": "May 2026", "count": 1 }
+      ]
+    },
+    "renewals": {
+      "name": "2026 Unit Renewal",
+      "url": "https://capitolareacouncil564.monday.com/boards/18289783899",
+      "updated_at": "2026-06-10T19:11:36Z",
+      "items": 311,
+      "intent": [
+        { "label": "Renewing", "count": 290 },
+        { "label": "Dropping", "count": 21 }
+      ],
+      "posted": [
+        { "label": "Completed", "count": 287 },
+        { "label": "Not posted", "count": 23 },
+        { "label": "Stuck", "count": 1 }
+      ]
+    },
+    "schools": {
+      "name": "Schools",
+      "url": "https://capitolareacouncil564.monday.com/boards/9158891570",
+      "updated_at": "2026-06-25T18:05:02Z",
+      "items": 729,
+      "status": [
+        { "label": "Active", "count": 615 },
+        { "label": "Closed", "count": 8 },
+        { "label": "Unlabeled", "count": 106 }
+      ],
+      "districts": [
+        { "label": "Unassigned", "count": 192 },
+        { "label": "Chisholm Trail", "count": 84 },
+        { "label": "Sacred Springs", "count": 65 },
+        { "label": "North Shore", "count": 59 },
+        { "label": "Armadillo", "count": 58 },
+        { "label": "Live Oak", "count": 54 },
+        { "label": "Colorado River", "count": 49 },
+        { "label": "Thunderbird", "count": 46 },
+        { "label": "Hill Country", "count": 42 },
+        { "label": "San Gabriel", "count": 37 },
+        { "label": "Bee Cave", "count": 25 },
+        { "label": "Waterloo", "count": 25 },
+        { "label": "Exploring", "count": 1 }
+      ]
+    }
+  }
+}
