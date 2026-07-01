@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="https://pbsargent.github.io/council-dashboard-summary/#commissioners">
+  <title>Council Commissioner Dashboard</title>
+  <link rel="icon" href="https://pbsargent.github.io/council-dashboard-summary/assets/cac-logo.png?v=20260625-brand">
+  <link rel="stylesheet" href="https://pbsargent.github.io/council-dashboard-summary/council-dashboard-summary.css?v=20260626-system-theme">
+  <style>
+    .sidebar {
+      background:
+        linear-gradient(rgba(15, 15, 15, .88), rgba(15, 15, 15, .96)),
+        url("https://pbsargent.github.io/council-dashboard-summary/assets/topo-panel.png?v=20260625-brand") center / cover;
+    }
+    .hero {
+      background:
+        linear-gradient(120deg, rgba(26, 26, 26, .96), rgba(31, 35, 54, .92) 54%, rgba(45, 212, 191, .32)),
+        url("https://pbsargent.github.io/council-dashboard-summary/assets/topo-panel.png?v=20260625-brand") right center / auto 100%;
+    }
+    .subset-link-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .subset-link {
+      min-height: 76px;
+      display: grid;
+      align-content: center;
+      gap: 4px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: var(--panel-2);
+      text-decoration: none;
+    }
+    .subset-link strong { font-size: 14px; }
+    .subset-link span { color: var(--muted); font-size: 12px; }
+    .coverage {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+    .coverage-item strong {
+      font-size: 22px;
+    }
+    .empty-state {
+      padding: 18px;
+      color: var(--muted);
+    }
+    @media (max-width: 900px) {
+      .subset-link-grid,
+      .coverage {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 560px) {
+      .subset-link-grid,
+      .coverage {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Commissioner dashboard navigation">
+      <div class="brand">
+        <img src="https://pbsargent.github.io/council-dashboard-summary/assets/cac-logo.png?v=20260625-brand" alt="Scouting America Capitol Area Council">
+      </div>
+      <nav>
+        <a href="#overview" class="active">Overview</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#priority">Priority Units</a>
+        <a href="#districts">Districts</a>
+        <a href="#training">Training</a>
+        <a href="#sources">Sources</a>
+        <a href="https://pbsargent.github.io/council-dashboard-summary/">Full Council Dashboard</a>
+      </nav>
+      <div class="sidebar-note">
+        <span id="generatedDate">Loading</span>
+        <strong>Council Commissioner Dashboard</strong>
+      </div>
+    </aside>
+
+    <main>
+      <header id="overview" class="hero">
+        <div>
+          <p class="eyebrow">Commissioner subset view</p>
+          <h1>Council Commissioner Dashboard <span class="title-data-date" id="titleDataDate"></span></h1>
+          <p class="lede">A commissioner-focused home page using the same source data, visual system, and metrics as the Council Dashboard Summary.</p>
+        </div>
+      </header>
+
+      <section class="kpi-grid" id="kpiGrid" aria-label="Commissioner subset metrics"></section>
+
+      <section id="coverage" class="panel" aria-labelledby="coverageTitle">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">Coverage support</p>
+            <h2 id="coverageTitle">Commissioner Coverage Snapshot</h2>
+          </div>
+          <div class="panel-actions">
+            <a class="detail-link" href="https://pbsargent.github.io/council-dashboard-summary/#commissioners">Open in Council Dashboard</a>
+          </div>
+        </div>
+        <div class="coverage" id="coverageCards"></div>
+      </section>
+
+      <section class="dashboard-grid">
+        <section id="priority" class="panel wide table-panel" aria-labelledby="priorityTitle">
+          <div class="panel-head">
+            <div>
+              <p class="section-kicker">Unit follow-up</p>
+              <h2 id="priorityTitle">Priority Units</h2>
+            </div>
+            <span class="count-pill" id="priorityCount"></span>
+          </div>
+          <div class="table-wrap short">
+            <table>
+              <thead>
+                <tr>
+                  <th>District</th>
+                  <th>Unit</th>
+                  <th class="num">Metric</th>
+                  <th class="num">Youth</th>
+                  <th>Commissioners</th>
+                  <th>PIN</th>
+                </tr>
+              </thead>
+              <tbody id="priorityRows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="linksTitle">
+          <div class="panel-head compact">
+            <div>
+              <p class="section-kicker">Related council views</p>
+              <h2 id="linksTitle">Commissioner Workbench</h2>
+            </div>
+          </div>
+          <div class="subset-link-grid">
+            <a class="subset-link" href="https://pbsargent.github.io/council-dashboard-summary/unit-metrics.html"><strong>Unit Metrics</strong><span>Health by unit and district</span></a>
+            <a class="subset-link" href="https://pbsargent.github.io/council-dashboard-summary/training.html"><strong>Training Detail</strong><span>Leader training gaps</span></a>
+            <a class="subset-link" href="https://pbsargent.github.io/council-dashboard-summary/syt.html"><strong>SYT Detail</strong><span>Direct-contact readiness</span></a>
+            <a class="subset-link" href="https://pbsargent.github.io/council-dashboard-summary/#districts"><strong>District Scorecard</strong><span>Council operating table</span></a>
+          </div>
+        </section>
+      </section>
+
+      <section id="districts" class="panel table-panel" aria-labelledby="districtTitle">
+        <div class="panel-head">
+          <div>
+            <p class="section-kicker">District scorecard</p>
+            <h2 id="districtTitle">Commissioner-Relevant District Detail</h2>
+          </div>
+          <div class="panel-actions">
+            <select id="serviceAreaSelect" aria-label="Filter service area">
+              <option value="">All service areas</option>
+            </select>
+            <select id="districtSelect" aria-label="Filter district">
+              <option value="">All districts</option>
+            </select>
+            <select id="statusSelect" aria-label="Filter status">
+              <option value="">All statuses</option>
+              <option value="Needs Attention">Needs Attention</option>
+              <option value="Monitor">Monitor</option>
+              <option value="On Track">On Track</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>District</th>
+                <th>Service Area</th>
+                <th>Status</th>
+                <th class="num">Youth</th>
+                <th class="num">YoY</th>
+                <th class="num">Avg Metric</th>
+                <th class="num">At Risk</th>
+                <th class="num">Assigned</th>
+                <th class="num">Official SYT</th>
+                <th class="num">Training</th>
+                <th>Commissioner</th>
+              </tr>
+            </thead>
+            <tbody id="districtRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="training" class="dashboard-grid">
+        <section class="panel focus-panel" aria-labelledby="trainingTitle">
+          <div class="panel-head compact">
+            <div>
+              <p class="section-kicker">Training</p>
+              <h2 id="trainingTitle">All-Scouter Training</h2>
+            </div>
+            <div class="panel-actions">
+              <a class="detail-link" href="https://pbsargent.github.io/council-dashboard-summary/training.html">More info</a>
+              <span class="count-pill" id="trainingStatus"></span>
+            </div>
+          </div>
+          <div id="trainingPanel"></div>
+        </section>
+
+        <section class="panel focus-panel" aria-labelledby="sytTitle">
+          <div class="panel-head compact">
+            <div>
+              <p class="section-kicker">SYT</p>
+              <h2 id="sytTitle">Official SYT</h2>
+            </div>
+            <div class="panel-actions">
+              <a class="detail-link" href="https://pbsargent.github.io/council-dashboard-summary/syt.html">More info</a>
+              <span class="count-pill" id="sytStatus"></span>
+            </div>
+          </div>
+          <div id="sytPanel"></div>
+        </section>
+      </section>
+
+      <section id="sources" class="panel" aria-labelledby="sourcesTitle">
+        <div class="panel-head compact">
+          <div>
+            <p class="section-kicker">Sources</p>
+            <h2 id="sourcesTitle">Canonical Source</h2>
+          </div>
+        </div>
+        <div class="source-grid" id="sourcesGrid"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const DATA_URL = "https://pbsargent.github.io/council-dashboard-summary/data/latest.json";
+    const FULL_URL = "https://pbsargent.github.io/council-dashboard-summary/";
+    const state = { data: null };
+    const fmt = new Intl.NumberFormat("en-US");
+    const one = new Intl.NumberFormat("en-US", { maximumFractionDigits: 1, minimumFractionDigits: 1 });
+    const pct = new Intl.NumberFormat("en-US", { style: "percent", maximumFractionDigits: 1 });
+    const signedPct = new Intl.NumberFormat("en-US", { style: "percent", maximumFractionDigits: 1, signDisplay: "always" });
+    const signedNum = new Intl.NumberFormat("en-US", { maximumFractionDigits: 0, signDisplay: "always" });
+
+    function esc(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (c) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      })[c]);
+    }
+    function n(value) { return value == null || Number.isNaN(value) ? "n/a" : fmt.format(value); }
+    function p(value) { return value == null || Number.isNaN(value) ? "n/a" : pct.format(value); }
+    function sp(value) { return value == null || Number.isNaN(value) ? "n/a" : signedPct.format(value); }
+    function metric(value) { return value == null || Number.isNaN(value) ? "n/a" : one.format(value); }
+    function statusClass(status) {
+      if (status === "On Track") return "good";
+      if (status === "Monitor") return "warn";
+      return "bad";
+    }
+    function formatDate(value) {
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? "n/a" : date.toLocaleString();
+    }
+    function controlValue(id) {
+      return document.getElementById(id)?.value || "";
+    }
+    function currentDistricts() {
+      const serviceArea = controlValue("serviceAreaSelect");
+      const district = controlValue("districtSelect");
+      const status = controlValue("statusSelect");
+      const q = controlValue("searchInput").trim().toLowerCase();
+      return state.data.dashboard.districts.filter((row) => {
+        const haystack = [row.district, row.service_area, row.district_commissioner, row.field_exec].join(" ").toLowerCase();
+        return (!serviceArea || row.service_area === serviceArea)
+          && (!district || row.district === district)
+          && (!status || row.status === status)
+          && (!q || haystack.includes(q));
+      });
+    }
+    function matchingPriorityUnits() {
+      const serviceArea = controlValue("serviceAreaSelect");
+      const district = controlValue("districtSelect");
+      const q = controlValue("searchInput").trim().toLowerCase();
+      return state.data.dashboard.priority_units.filter((row) => {
+        const haystack = [row.district, row.service_area, row.unit, ...(row.commissioners || []), row.pin_status].join(" ").toLowerCase();
+        return (!serviceArea || row.service_area === serviceArea)
+          && (!district || row.district === district)
+          && (!q || haystack.includes(q));
+      });
+    }
+    function miniMeter(value, tone = "") {
+      const width = Math.max(0, Math.min(100, (value || 0) * 100));
+      return `<span class="mini-meter"><span class="meter"><span class="meter-fill ${tone}" style="width:${width}%"></span></span><span class="subtle">${p(value)}</span></span>`;
+    }
+    function ratePanelRows(rows, key) {
+      return [...rows].sort((a, b) => (a[key] || 0) - (b[key] || 0)).slice(0, 5);
+    }
+    function renderRatePanel(targetId, statusId, key, councilValue, threshold, label) {
+      const rows = ratePanelRows(currentDistricts(), key);
+      const below = state.data.dashboard.districts.filter((row) => (row[key] || 0) < threshold).length;
+      document.getElementById(statusId).textContent = `${below} below ${p(threshold)}`;
+      document.getElementById(targetId).innerHTML = `
+        <div class="focus-metric">
+          <strong>${p(councilValue)}</strong>
+          <span>Council ${esc(label)}</span>
+        </div>
+        <div class="focus-bars">
+          ${rows.map((row) => {
+            const width = Math.max(2, Math.min(100, (row[key] || 0) * 100));
+            const tone = (row[key] || 0) < threshold ? "risk" : "good";
+            return `
+              <div class="focus-row">
+                <span>${esc(row.district)}</span>
+                <div class="meter"><div class="meter-fill ${tone}" style="width:${width}%"></div></div>
+                <strong>${p(row[key])}</strong>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+    function renderMeta() {
+      const data = state.data;
+      const generated = new Date(data.generated_at);
+      document.getElementById("generatedDate").textContent = Number.isNaN(generated.getTime())
+        ? data.generated_date
+        : generated.toLocaleString();
+      const dataDate = new Date(`${data.generated_date}T00:00:00`);
+      const dateLabel = Number.isNaN(dataDate.getTime())
+        ? data.generated_date
+        : dataDate.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric" });
+      document.getElementById("titleDataDate").textContent = `Data current as of ${dateLabel}`;
+    }
+    function renderControls() {
+      const serviceAreaSelect = document.getElementById("serviceAreaSelect");
+      const districtSelect = document.getElementById("districtSelect");
+      const selectedServiceArea = serviceAreaSelect?.value || "";
+      const selectedDistrict = districtSelect?.value || "";
+      if (serviceAreaSelect) {
+        const serviceAreas = [...new Set(state.data.dashboard.districts.map((row) => row.service_area).filter(Boolean))]
+          .sort((a, b) => a.localeCompare(b));
+        serviceAreaSelect.innerHTML = `<option value="">All service areas</option>${
+          serviceAreas.map((area) => `<option value="${esc(area)}">${esc(area)}</option>`).join("")
+        }`;
+        serviceAreaSelect.value = serviceAreas.includes(selectedServiceArea) ? selectedServiceArea : "";
+      }
+      if (!districtSelect) return;
+      const options = state.data.dashboard.districts
+        .filter((row) => !serviceAreaSelect?.value || row.service_area === serviceAreaSelect.value)
+        .map((row) => `<option value="${esc(row.district)}">${esc(row.district)}</option>`)
+        .join("");
+      districtSelect.innerHTML = `<option value="">All districts</option>${options}`;
+      const validDistricts = state.data.dashboard.districts
+        .filter((row) => !serviceAreaSelect?.value || row.service_area === serviceAreaSelect.value)
+        .map((row) => row.district);
+      districtSelect.value = validDistricts.includes(selectedDistrict) ? selectedDistrict : "";
+    }
+    function renderKpis() {
+      const c = state.data.dashboard.council;
+      const trained = state.data.dashboard.commissioners.filter((row) => row.trained).length;
+      const withAssignments = state.data.dashboard.commissioners.filter((row) => row.assigned_units).length;
+      const unitCommissioners = c.unit_commissioners || 0;
+      const tiles = [
+        ["Assigned", p(c.assigned_pct), `${n(c.assigned_units)} of ${n(c.units)} units`, "good"],
+        ["At Risk", n(c.at_risk_units), `${p(c.at_risk_rate)} of council units`, "danger"],
+        ["Priority Units", n(state.data.dashboard.priority_units.length), "Lowest unit metric follow-up list", "warning"],
+        ["Commissioners", n(c.commissioners), `${n(unitCommissioners)} unit commissioners`, "teal"],
+        ["Trained", p(trained / Math.max(1, state.data.dashboard.commissioners.length)), `${n(trained)} commissioner records`, "warning"],
+        ["With Assignments", p(withAssignments / Math.max(1, state.data.dashboard.commissioners.length)), `${n(withAssignments)} commissioner records`, "good"],
+      ];
+      document.getElementById("kpiGrid").innerHTML = tiles.map(([label, value, sub, tone]) => `
+        <article class="kpi ${tone}">
+          <div>
+            <div class="kpi-label">${esc(label)}</div>
+            <div class="kpi-value">${esc(value)}</div>
+          </div>
+          <div class="kpi-sub">${esc(sub)}</div>
+        </article>
+      `).join("");
+    }
+    function renderCoverage() {
+      const c = state.data.dashboard.council;
+      const commissioners = state.data.dashboard.commissioners;
+      const trained = commissioners.filter((row) => row.trained).length;
+      const withAssignments = commissioners.filter((row) => row.assigned_units).length;
+      const unitCommissioners = c.unit_commissioners || 0;
+      const cards = [
+        ["Registered commissioners", n(c.commissioners), "Total commissioner records in the dashboard extract."],
+        ["Unit commissioners", n(unitCommissioners), `${n(c.units)} council units for coverage planning.`],
+        ["Commissioners trained", p(trained / Math.max(1, commissioners.length)), `${n(trained)} trained records.`],
+        ["With assignments", p(withAssignments / Math.max(1, commissioners.length)), `${n(withAssignments)} commissioners list assigned units.`],
+      ];
+      document.getElementById("coverageCards").innerHTML = cards.map(([label, value, body]) => `
+        <article class="coverage-item"><strong>${esc(value)} ${esc(label)}</strong><p>${esc(body)}</p></article>
+      `).join("");
+    }
+    function renderPriorityRows() {
+      const rows = matchingPriorityUnits().sort((a, b) => (a.metric || 0) - (b.metric || 0));
+      document.getElementById("priorityCount").textContent = `${rows.length} shown`;
+      document.getElementById("priorityRows").innerHTML = rows.map((row) => `
+        <tr>
+          <td>${esc(row.district)}</td>
+          <td><strong>${esc(row.unit)}</strong><div class="subtle">${esc(row.unit_type || "")}</div></td>
+          <td class="num">${metric(row.metric)}</td>
+          <td class="num">${n(row.youth)}</td>
+          <td>${esc((row.commissioners || []).join(", ") || "Unassigned")}</td>
+          <td>${esc(row.pin_status || "n/a")}</td>
+        </tr>
+      `).join("") || '<tr><td colspan="6"><div class="empty-state">No matching priority units.</div></td></tr>';
+    }
+    function renderDistrictRows() {
+      const rows = currentDistricts().sort((a, b) => (b.at_risk_rate || 0) - (a.at_risk_rate || 0));
+      document.getElementById("districtRows").innerHTML = rows.map((row) => `
+        <tr>
+          <td><strong>${esc(row.district)}</strong><div class="subtle">${n(row.units)} units</div></td>
+          <td>${esc(row.service_area || "n/a")}<div class="subtle">${esc(row.service_area_field_director || "")}</div></td>
+          <td><span class="status ${statusClass(row.status)}">${esc(row.status)}</span></td>
+          <td class="num">${n(row.members)}</td>
+          <td class="num">${sp(row.yoy_pct)}</td>
+          <td class="num">${metric(row.avg_metric)}</td>
+          <td class="num">${miniMeter(row.at_risk_rate, "risk")}</td>
+          <td class="num">${miniMeter(row.assigned_pct)}</td>
+          <td class="num">${p(row.syt_pct)}</td>
+          <td class="num">${p(row.training_pct)}</td>
+          <td>${esc(row.district_commissioner || "TBA")}<div class="subtle">${esc(row.field_exec || "")}</div></td>
+        </tr>
+      `).join("") || '<tr><td colspan="11"><div class="empty-state">No matching districts.</div></td></tr>';
+    }
+    function renderTraining() {
+      const c = state.data.dashboard.council;
+      renderRatePanel("trainingPanel", "trainingStatus", "training_pct", c.training_pct, 0.55, "training completion");
+      renderRatePanel("sytPanel", "sytStatus", "syt_pct", c.syt_pct, 0.8, "Official SYT");
+    }
+    function renderSources() {
+      const data = state.data;
+      const sources = [
+        ["Canonical dashboard data", "Council Dashboard Summary data/latest.json", data.generated_at, DATA_URL],
+        ["Dashboard workbook", data.dashboard.source_name, data.dashboard.source_mtime, data.dashboard.source],
+        ["CST7 metric workbook", data.cst.source_name, data.cst.source_mtime, data.cst.source],
+        ["Service Area mapping", data.dashboard.service_area_source || "Bill Kohl email, Districts and Service Area", data.generated_at, ""],
+      ];
+      document.getElementById("sourcesGrid").innerHTML = sources.map(([label, name, mtime, path]) => `
+        <article class="source-card">
+          <strong>${esc(label)}</strong>
+          <p>${esc(name || "n/a")}</p>
+          <p>Updated ${esc(formatDate(mtime))}</p>
+          <p class="subtle">${esc(path || "")}</p>
+        </article>
+      `).join("");
+    }
+    function renderAll() {
+      renderKpis();
+      renderCoverage();
+      renderPriorityRows();
+      renderDistrictRows();
+      renderTraining();
+      renderSources();
+    }
+    function bindEvents() {
+      ["serviceAreaSelect", "districtSelect", "statusSelect", "searchInput"].forEach((id) => {
+        document.getElementById(id)?.addEventListener("input", () => {
+          if (id === "serviceAreaSelect") renderControls();
+          renderAll();
+        });
+      });
+    }
+    async function init() {
+      const response = await fetch(DATA_URL, { cache: "no-store" });
+      if (!response.ok) throw new Error(`Unable to load canonical dashboard data: ${response.status}`);
+      state.data = await response.json();
+      renderMeta();
+      renderControls();
+      bindEvents();
+      renderAll();
+    }
+    init().catch((error) => {
+      document.querySelector("main").innerHTML = `
+        <section class="panel">
+          <h1>Dashboard data did not load</h1>
+          <p>${esc(error.message)}</p>
+          <p><a href="${FULL_URL}#commissioners">Open commissioner coverage in the Council Dashboard Summary</a></p>
+        </section>
+      `;
+    });
+  </script>
+</body>
+</html>
