@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-27T08:50:05",
-  "generated_date": "2026-06-27",
+  "generated_at": "2026-06-25T19:26:46",
+  "generated_date": "2026-06-25",
   "dashboard": {
-    "source": "/Users/petersargent/Library/CloudStorage/GoogleDrive-peter@imetpetersargent.com/Shared drives/Council Dashboard Reports/2026-06-27_Dashboard - CAC.xlsx",
-    "source_name": "2026-06-27_Dashboard - CAC.xlsx",
-    "source_mtime": "2026-06-27T08:30:09",
+    "source": "/Users/petersargent/Library/CloudStorage/GoogleDrive-peter@imetpetersargent.com/Shared drives/Council Dashboard Reports/2026-06-25_Dashboard - CAC.xlsx",
+    "source_name": "2026-06-25_Dashboard - CAC.xlsx",
+    "source_mtime": "2026-06-25T16:13:00",
     "districts": [
       {
         "district": "Armadillo",
@@ -17,18 +17,18 @@
         "year_end_2025": 1877.0,
         "year_end_delta": -151.0,
         "year_end_pct": -0.08044752264251465,
-        "syt_pct": 0.8832752613240418,
+        "syt_pct": 0.8342904019688269,
         "pin_pct": 0.9433962264150944,
-        "district_commissioner": null,
+        "district_commissioner": "Margarito Aranda",
         "field_exec": "Amara Davis",
-        "avg_metric": 2.8679245283018866,
+        "avg_metric": 2.849056603773585,
         "metric_0_2_rate": 0.39622641509433965,
         "metric_3_rate": 0.2641509433962264,
         "metric_4_5_rate": 0.33962264150943394,
         "ul_cc_trained_rate": 0.39622641509433965,
         "small_unit_rate": 0.8113207547169812,
         "advancement_rate": 0.8113207547169812,
-        "outdoor_rate": 0.22641509433962265,
+        "outdoor_rate": 0.20754716981132076,
         "retention_rate": 0.688490566037736,
         "packs": 22.0,
         "pack_connect_pct": 0.3636,
@@ -36,30 +36,37 @@
         "troop_connect_pct": 0.6,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 1.0,
-        "training_pct": 0.5583468395461912,
-        "direct_contact_training_pct": 0.49842271293375395,
+        "training_pct": 0.5546218487394958,
+        "direct_contact_training_pct": 0.48024316109422494,
         "unit_commissioners": 3.0,
         "uc_ratio": 17.666666666666668,
-        "assigned_pct": 0.5094339622641509,
+        "assigned_pct": 0.6037735849056604,
         "new_units": 6.0,
         "new_unit_assigned_pct": 0.3333333333333333,
         "at_risk_units": 21,
         "healthy_units": 18,
         "at_risk_rate": 0.39622641509433965,
-        "status": "Monitor"
+        "status": "Monitor",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Bee Cave",
         "district_label": "Bee Cave 01",
         "units": 29.0,
-        "members": 960.0,
+        "members": 957.0,
         "last_year_members": 1012.0,
-        "yoy_delta": -52.0,
-        "yoy_pct": -0.05138339920948617,
+        "yoy_delta": -55.0,
+        "yoy_pct": -0.05434782608695652,
         "year_end_2025": 1126.0,
-        "year_end_delta": -166.0,
-        "year_end_pct": -0.14742451154529307,
-        "syt_pct": 0.9027962716378163,
+        "year_end_delta": -169.0,
+        "year_end_pct": -0.15008880994671403,
+        "syt_pct": 0.8321078431372549,
         "pin_pct": 1.0,
         "district_commissioner": "Anne Hagan",
         "field_exec": "Jackson Hively",
@@ -67,8 +74,8 @@
         "metric_0_2_rate": 0.27586206896551724,
         "metric_3_rate": 0.27586206896551724,
         "metric_4_5_rate": 0.4482758620689655,
-        "ul_cc_trained_rate": 0.41379310344827586,
-        "small_unit_rate": 0.8620689655172413,
+        "ul_cc_trained_rate": 0.4482758620689655,
+        "small_unit_rate": 0.8275862068965517,
         "advancement_rate": 0.896551724137931,
         "outdoor_rate": 0.20689655172413793,
         "retention_rate": 0.8365517241379311,
@@ -78,8 +85,8 @@
         "troop_connect_pct": 0.6875,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 0.75,
-        "training_pct": 0.6645962732919255,
-        "direct_contact_training_pct": 0.4659090909090909,
+        "training_pct": 0.6700913242009132,
+        "direct_contact_training_pct": 0.44086021505376344,
         "unit_commissioners": 0.0,
         "uc_ratio": null,
         "assigned_pct": 0.8620689655172413,
@@ -88,20 +95,27 @@
         "at_risk_units": 8,
         "healthy_units": 13,
         "at_risk_rate": 0.27586206896551724,
-        "status": "On Track"
+        "status": "Monitor",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
         "district_label": "Chisholm Trail 05",
         "units": 47.0,
-        "members": 1641.0,
+        "members": 1640.0,
         "last_year_members": 1687.0,
-        "yoy_delta": -46.0,
-        "yoy_pct": -0.027267338470657973,
+        "yoy_delta": -47.0,
+        "yoy_pct": -0.027860106698280974,
         "year_end_2025": 1834.0,
-        "year_end_delta": -193.0,
-        "year_end_pct": -0.10523446019629226,
-        "syt_pct": 0.9012658227848102,
+        "year_end_delta": -194.0,
+        "year_end_pct": -0.10577971646673937,
+        "syt_pct": 0.839622641509434,
         "pin_pct": 0.9574468085106383,
         "district_commissioner": "Eric Kline",
         "field_exec": "Beccy Alston",
@@ -120,8 +134,8 @@
         "troop_connect_pct": 0.6667000000000001,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 1.0,
-        "training_pct": 0.6516587677725119,
-        "direct_contact_training_pct": 0.5014084507042254,
+        "training_pct": 0.6369661266568483,
+        "direct_contact_training_pct": 0.4623376623376623,
         "unit_commissioners": 5.0,
         "uc_ratio": 9.4,
         "assigned_pct": 0.7659574468085106,
@@ -130,7 +144,14 @@
         "at_risk_units": 13,
         "healthy_units": 19,
         "at_risk_rate": 0.2765957446808511,
-        "status": "On Track"
+        "status": "Monitor",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Colorado River",
@@ -143,7 +164,7 @@
         "year_end_2025": 229.0,
         "year_end_delta": -34.0,
         "year_end_pct": -0.14847161572052403,
-        "syt_pct": 0.9194630872483222,
+        "syt_pct": 0.8282208588957055,
         "pin_pct": 0.8571428571428571,
         "district_commissioner": "James Adams",
         "field_exec": "Vicki (Acting)",
@@ -162,8 +183,8 @@
         "troop_connect_pct": 0.11109999999999999,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 0.75,
-        "training_pct": 0.50625,
-        "direct_contact_training_pct": 0.40350877192982454,
+        "training_pct": 0.4858757062146893,
+        "direct_contact_training_pct": 0.39655172413793105,
         "unit_commissioners": 1.0,
         "uc_ratio": 14.0,
         "assigned_pct": 0.6428571428571429,
@@ -172,7 +193,14 @@
         "at_risk_units": 9,
         "healthy_units": 0,
         "at_risk_rate": 0.6428571428571429,
-        "status": "Needs Attention"
+        "status": "Needs Attention",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "Dane Louvier",
+        "district_commissioner_from_hierarchy": "James Adams",
+        "service_area_order": 1
       },
       {
         "district": "Exploring",
@@ -214,7 +242,14 @@
         "at_risk_units": 9,
         "healthy_units": 0,
         "at_risk_rate": 1.0,
-        "status": "Needs Attention"
+        "status": "Needs Attention",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "JP Perkins",
+        "district_professional_role": "Exploring Executive",
+        "district_chair": null,
+        "district_commissioner_from_hierarchy": "Dennis Eibe",
+        "service_area_order": 1
       },
       {
         "district": "Hill Country",
@@ -227,7 +262,7 @@
         "year_end_2025": 233.0,
         "year_end_delta": -56.0,
         "year_end_pct": -0.24034334763948498,
-        "syt_pct": 0.8333333333333334,
+        "syt_pct": 0.7354838709677419,
         "pin_pct": 0.9333333333333333,
         "district_commissioner": "Dennis Rose",
         "field_exec": "Justin (Acting)",
@@ -246,7 +281,7 @@
         "troop_connect_pct": 0.1429,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 1.0,
-        "training_pct": 0.5394736842105263,
+        "training_pct": 0.5416666666666666,
         "direct_contact_training_pct": 0.3409090909090909,
         "unit_commissioners": 1.0,
         "uc_ratio": 15.0,
@@ -256,7 +291,14 @@
         "at_risk_units": 12,
         "healthy_units": 1,
         "at_risk_rate": 0.8,
-        "status": "Needs Attention"
+        "status": "Needs Attention",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Live Oak",
@@ -269,15 +311,15 @@
         "year_end_2025": 275.0,
         "year_end_delta": -86.0,
         "year_end_pct": -0.31272727272727274,
-        "syt_pct": 0.8561643835616438,
+        "syt_pct": 0.7530120481927711,
         "pin_pct": 0.8823529411764706,
         "district_commissioner": "David Spencer",
         "field_exec": "TBA - Ed (Acting)",
-        "avg_metric": 1.8823529411764706,
+        "avg_metric": 1.9411764705882353,
         "metric_0_2_rate": 0.6470588235294118,
         "metric_3_rate": 0.17647058823529413,
         "metric_4_5_rate": 0.17647058823529413,
-        "ul_cc_trained_rate": 0.29411764705882354,
+        "ul_cc_trained_rate": 0.35294117647058826,
         "small_unit_rate": 0.35294117647058826,
         "advancement_rate": 0.7058823529411765,
         "outdoor_rate": 0.17647058823529413,
@@ -288,8 +330,8 @@
         "troop_connect_pct": 0.0,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 1.0,
-        "training_pct": 0.44785276073619634,
-        "direct_contact_training_pct": 0.3389830508474576,
+        "training_pct": 0.41397849462365593,
+        "direct_contact_training_pct": 0.31746031746031744,
         "unit_commissioners": 0.0,
         "uc_ratio": null,
         "assigned_pct": 0.8235294117647058,
@@ -298,7 +340,14 @@
         "at_risk_units": 11,
         "healthy_units": 3,
         "at_risk_rate": 0.6470588235294118,
-        "status": "Needs Attention"
+        "status": "Needs Attention",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "North Shore",
@@ -311,15 +360,15 @@
         "year_end_2025": 881.0,
         "year_end_delta": -46.0,
         "year_end_pct": -0.05221339387060159,
-        "syt_pct": 0.9352014010507881,
+        "syt_pct": 0.8973063973063973,
         "pin_pct": 1.0,
         "district_commissioner": "Timothy Pacl",
         "field_exec": "Summer Jones",
-        "avg_metric": 3.6666666666666665,
+        "avg_metric": 3.7037037037037037,
         "metric_0_2_rate": 0.14814814814814814,
-        "metric_3_rate": 0.25925925925925924,
-        "metric_4_5_rate": 0.5925925925925926,
-        "ul_cc_trained_rate": 0.7037037037037037,
+        "metric_3_rate": 0.2222222222222222,
+        "metric_4_5_rate": 0.6296296296296297,
+        "ul_cc_trained_rate": 0.7407407407407407,
         "small_unit_rate": 0.9259259259259259,
         "advancement_rate": 0.9259259259259259,
         "outdoor_rate": 0.3333333333333333,
@@ -330,17 +379,24 @@
         "troop_connect_pct": 0.35710000000000003,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 0.9412,
-        "training_pct": 0.7145214521452146,
-        "direct_contact_training_pct": 0.6395348837209303,
+        "training_pct": 0.7115689381933439,
+        "direct_contact_training_pct": 0.6285714285714286,
         "unit_commissioners": 1.0,
         "uc_ratio": 27.0,
-        "assigned_pct": 0.48148148148148145,
+        "assigned_pct": 0.4074074074074074,
         "new_units": 3.0,
         "new_unit_assigned_pct": 1.0,
         "at_risk_units": 4,
-        "healthy_units": 16,
+        "healthy_units": 17,
         "at_risk_rate": 0.14814814814814814,
-        "status": "On Track"
+        "status": "On Track",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "Sacred Springs",
@@ -353,17 +409,17 @@
         "year_end_2025": 744.0,
         "year_end_delta": -86.0,
         "year_end_pct": -0.11559139784946236,
-        "syt_pct": 0.8858267716535433,
+        "syt_pct": 0.8079710144927537,
         "pin_pct": 0.9393939393939394,
         "district_commissioner": "Felix Sassenhagen",
         "field_exec": "TBA - Ed (Acting)",
-        "avg_metric": 2.515151515151515,
-        "metric_0_2_rate": 0.48484848484848486,
-        "metric_3_rate": 0.3333333333333333,
+        "avg_metric": 2.5757575757575757,
+        "metric_0_2_rate": 0.45454545454545453,
+        "metric_3_rate": 0.36363636363636365,
         "metric_4_5_rate": 0.18181818181818182,
-        "ul_cc_trained_rate": 0.5151515151515151,
+        "ul_cc_trained_rate": 0.5454545454545454,
         "small_unit_rate": 0.5757575757575758,
-        "advancement_rate": 0.8484848484848485,
+        "advancement_rate": 0.8787878787878788,
         "outdoor_rate": 0.15151515151515152,
         "retention_rate": 0.6515151515151516,
         "packs": 13.0,
@@ -372,17 +428,24 @@
         "troop_connect_pct": 0.1765,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 0.8889,
-        "training_pct": 0.6476014760147601,
-        "direct_contact_training_pct": 0.5290322580645161,
+        "training_pct": 0.6311336717428088,
+        "direct_contact_training_pct": 0.5093167701863354,
         "unit_commissioners": 1.0,
         "uc_ratio": 33.0,
         "assigned_pct": 0.5454545454545454,
         "new_units": 6.0,
         "new_unit_assigned_pct": 0.3333333333333333,
-        "at_risk_units": 16,
+        "at_risk_units": 15,
         "healthy_units": 6,
-        "at_risk_rate": 0.48484848484848486,
-        "status": "Monitor"
+        "at_risk_rate": 0.45454545454545453,
+        "status": "Monitor",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "San Gabriel",
@@ -395,7 +458,7 @@
         "year_end_2025": 363.0,
         "year_end_delta": -22.0,
         "year_end_pct": -0.06060606060606061,
-        "syt_pct": 0.9459459459459459,
+        "syt_pct": 0.9135338345864662,
         "pin_pct": 0.9375,
         "district_commissioner": "Jack Ward",
         "field_exec": "Vicki (Acting)",
@@ -414,8 +477,8 @@
         "troop_connect_pct": 0.0,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 1.0,
-        "training_pct": 0.7562724014336918,
-        "direct_contact_training_pct": 0.6764705882352942,
+        "training_pct": 0.754325259515571,
+        "direct_contact_training_pct": 0.6571428571428571,
         "unit_commissioners": 3.0,
         "uc_ratio": 5.333333333333333,
         "assigned_pct": 0.75,
@@ -424,7 +487,14 @@
         "at_risk_units": 5,
         "healthy_units": 5,
         "at_risk_rate": 0.3125,
-        "status": "On Track"
+        "status": "On Track",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -437,15 +507,15 @@
         "year_end_2025": 772.0,
         "year_end_delta": -101.0,
         "year_end_pct": -0.13082901554404144,
-        "syt_pct": 0.8937093275488069,
+        "syt_pct": 0.8174603174603174,
         "pin_pct": 0.9523809523809523,
         "district_commissioner": "William Orner",
         "field_exec": "Sherrick West",
-        "avg_metric": 2.8095238095238093,
-        "metric_0_2_rate": 0.42857142857142855,
-        "metric_3_rate": 0.3333333333333333,
+        "avg_metric": 2.857142857142857,
+        "metric_0_2_rate": 0.38095238095238093,
+        "metric_3_rate": 0.38095238095238093,
         "metric_4_5_rate": 0.23809523809523808,
-        "ul_cc_trained_rate": 0.38095238095238093,
+        "ul_cc_trained_rate": 0.42857142857142855,
         "small_unit_rate": 0.9047619047619048,
         "advancement_rate": 0.9047619047619048,
         "outdoor_rate": 0.047619047619047616,
@@ -456,17 +526,24 @@
         "troop_connect_pct": 0.1,
         "not_renewed_pct": 0.0,
         "commissioner_trained_pct": 0.75,
-        "training_pct": 0.509090909090909,
-        "direct_contact_training_pct": 0.3284671532846715,
+        "training_pct": 0.5037037037037037,
+        "direct_contact_training_pct": 0.3013698630136986,
         "unit_commissioners": 2.0,
         "uc_ratio": 10.5,
         "assigned_pct": 0.3333333333333333,
         "new_units": 2.0,
         "new_unit_assigned_pct": 0.0,
-        "at_risk_units": 9,
+        "at_risk_units": 8,
         "healthy_units": 5,
-        "at_risk_rate": 0.42857142857142855,
-        "status": "Monitor"
+        "at_risk_rate": 0.38095238095238093,
+        "status": "Monitor",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Waterloo",
@@ -479,7 +556,7 @@
         "year_end_2025": 500.0,
         "year_end_delta": -45.0,
         "year_end_pct": -0.09,
-        "syt_pct": 0.9910714285714286,
+        "syt_pct": 0.9823008849557522,
         "pin_pct": 0.7692307692307693,
         "district_commissioner": "Dale Clay",
         "field_exec": "Kemi Ademuyewo",
@@ -498,7 +575,7 @@
         "troop_connect_pct": 1.0,
         "not_renewed_pct": 0.07690000000000001,
         "commissioner_trained_pct": 0.5,
-        "training_pct": 0.3157894736842105,
+        "training_pct": 0.3217391304347826,
         "direct_contact_training_pct": 0.0,
         "unit_commissioners": 0.0,
         "uc_ratio": null,
@@ -508,30 +585,37 @@
         "at_risk_units": 12,
         "healthy_units": 0,
         "at_risk_rate": 0.9230769230769231,
-        "status": "Needs Attention"
+        "status": "Needs Attention",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       }
     ],
     "council": {
       "units": 294.0,
-      "members": 7923.0,
-      "yoy_delta": -95.0,
+      "members": 7919.0,
+      "yoy_delta": -99.0,
       "last_year_members": 8018.0,
-      "at_risk_units": 129,
-      "healthy_units": 86,
+      "at_risk_units": 127,
+      "healthy_units": 87,
       "unit_commissioners": 17.0,
-      "assigned_units": 188,
-      "commissioners": 114,
-      "yoy_pct": -0.011848341232227487,
-      "at_risk_rate": 0.4387755102040816,
-      "healthy_rate": 0.2925170068027211,
-      "assigned_pct": 0.6394557823129252,
-      "avg_metric": 2.6700680272108843,
-      "training_pct": 0.5820813318920419,
-      "syt_pct": 0.9019003306187432,
+      "assigned_units": 191,
+      "commissioners": 116,
+      "yoy_pct": -0.01234721875779496,
+      "at_risk_rate": 0.43197278911564624,
+      "healthy_rate": 0.29591836734693877,
+      "assigned_pct": 0.6496598639455783,
+      "avg_metric": 2.683673469387755,
+      "training_pct": 0.5744387280395434,
+      "syt_pct": 0.8441937295191569,
       "status_counts": {
-        "Monitor": 3,
-        "On Track": 4,
-        "Needs Attention": 5
+        "Monitor": 5,
+        "Needs Attention": 5,
+        "On Track": 2
       }
     },
     "priority_units": [
@@ -549,7 +633,14 @@
         "commissioners": [
           "Edward A Teran"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Armadillo",
@@ -562,8 +653,17 @@
         "yoy_growth": false,
         "advancement_or_officers": false,
         "outdoor": false,
-        "commissioners": [],
-        "pin_status": "Inactive"
+        "commissioners": [
+          "Michael Allen Bailey"
+        ],
+        "pin_status": "Inactive",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "San Gabriel",
@@ -579,7 +679,14 @@
         "commissioners": [
           "Jack T Ward"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "Chisholm Trail",
@@ -595,7 +702,14 @@
         "commissioners": [
           "Edward A Teran"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -611,7 +725,14 @@
         "commissioners": [
           "Sharon E McMahon"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Bee Cave",
@@ -627,7 +748,14 @@
         "commissioners": [
           "Anne Daly Hagan"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Exploring",
@@ -643,7 +771,14 @@
         "commissioners": [
           "Dennis Alan Eibe"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "JP Perkins",
+        "district_professional_role": "Exploring Executive",
+        "district_chair": null,
+        "district_commissioner_from_hierarchy": "Dennis Eibe",
+        "service_area_order": 1
       },
       {
         "district": "Chisholm Trail",
@@ -659,7 +794,14 @@
         "commissioners": [
           "Christy Engle Cochran"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Sacred Springs",
@@ -673,7 +815,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "San Gabriel",
@@ -689,7 +838,14 @@
         "commissioners": [
           "Jack T Ward"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "Hill Country",
@@ -705,7 +861,14 @@
         "commissioners": [
           "Sharon E McMahon"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Armadillo",
@@ -719,7 +882,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Armadillo",
@@ -735,7 +905,14 @@
         "commissioners": [
           "Olga  Mikheeva"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Exploring",
@@ -749,7 +926,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Inactive"
+        "pin_status": "Inactive",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "JP Perkins",
+        "district_professional_role": "Exploring Executive",
+        "district_chair": null,
+        "district_commissioner_from_hierarchy": "Dennis Eibe",
+        "service_area_order": 1
       },
       {
         "district": "Live Oak",
@@ -763,7 +947,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Inactive"
+        "pin_status": "Inactive",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -779,7 +970,14 @@
         "commissioners": [
           "David Bryan Spencer"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -793,7 +991,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Inactive"
+        "pin_status": "Inactive",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Waterloo",
@@ -809,7 +1014,14 @@
         "commissioners": [
           "Bobby Ray Williams Sr"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       },
       {
         "district": "Waterloo",
@@ -823,7 +1035,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Inactive"
+        "pin_status": "Inactive",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       },
       {
         "district": "Waterloo",
@@ -839,7 +1058,14 @@
         "commissioners": [
           "Dale  Clay"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       },
       {
         "district": "Bee Cave",
@@ -855,7 +1081,14 @@
         "commissioners": [
           "Jim  Behrens"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Waterloo",
@@ -871,7 +1104,14 @@
         "commissioners": [
           "Bobby Ray Williams Sr"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -887,7 +1127,14 @@
         "commissioners": [
           "David Bryan Spencer"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Waterloo",
@@ -903,7 +1150,14 @@
         "commissioners": [
           "Dale  Clay"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       },
       {
         "district": "San Gabriel",
@@ -917,7 +1171,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Inactive"
+        "pin_status": "Inactive",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "Exploring",
@@ -933,7 +1194,14 @@
         "commissioners": [
           "Dennis Alan Eibe"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "JP Perkins",
+        "district_professional_role": "Exploring Executive",
+        "district_chair": null,
+        "district_commissioner_from_hierarchy": "Dennis Eibe",
+        "service_area_order": 1
       },
       {
         "district": "Live Oak",
@@ -949,7 +1217,14 @@
         "commissioners": [
           "David Bryan Spencer"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -963,7 +1238,14 @@
         "advancement_or_officers": false,
         "outdoor": false,
         "commissioners": [],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Bee Cave",
@@ -979,7 +1261,14 @@
         "commissioners": [
           "Ted Thomson"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -995,7 +1284,14 @@
         "commissioners": [
           "Sharon E McMahon"
         ],
-        "pin_status": "Active"
+        "pin_status": "Active",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       }
     ],
     "commissioners": [
@@ -1067,7 +1363,14 @@
         "ypt": false,
         "assigned_units": "Crew 8787, Pack 406 F, Troop 8787 B",
         "unit_health": "2, 4, 2",
-        "syt_expires": "2027-05-09T00:00:00"
+        "syt_expires": "2027-05-09T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Armadillo",
@@ -1077,7 +1380,14 @@
         "ypt": false,
         "assigned_units": "Pack 685 F, Troop 4277 B",
         "unit_health": "5, 4",
-        "syt_expires": "2027-04-12T00:00:00"
+        "syt_expires": "2027-04-12T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Armadillo",
@@ -1087,7 +1397,14 @@
         "ypt": false,
         "assigned_units": "Pack 489 F, Troop 489 B",
         "unit_health": "3, 3",
-        "syt_expires": "2026-05-31T00:00:00"
+        "syt_expires": "2026-05-31T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Armadillo",
@@ -1097,17 +1414,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-26T00:00:00"
-      },
-      {
-        "district": "Armadillo",
-        "name": "Mikheeva, Olga ",
-        "position": "Roundtable Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Crew 3, Crew 4, Pack 2 F, Pack 55 F, Troop 2 G, Troop 3 B, Troop 5 B, Troop 50 G, Troop 410 B, Troop 2019 G",
-        "unit_health": "2, 2, 2, 3, 4, 4, 3, 3, 3, 0",
-        "syt_expires": "2027-04-30T00:00:00"
+        "syt_expires": "2027-04-26T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Armadillo",
@@ -1117,57 +1431,14 @@
         "ypt": false,
         "assigned_units": "Crew 3, Crew 4, Pack 2 F, Pack 55 F, Troop 2 G, Troop 3 B, Troop 5 B, Troop 50 G, Troop 410 B, Troop 2019 G",
         "unit_health": "2, 2, 2, 3, 4, 4, 3, 3, 3, 0",
-        "syt_expires": "2027-04-30T00:00:00"
-      },
-      {
-        "district": "Armadillo",
-        "name": "Kruemcke, Susan Robinson",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Troop 2019 G",
-        "unit_health": "0",
-        "syt_expires": "2026-10-06T00:00:00"
-      },
-      {
-        "district": "Armadillo",
-        "name": "Hummell, Norman S",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 49 F, Pack 89 F, Troop 49 B, Troop 89 B, Troop 413 B, Troop 1407 B",
-        "unit_health": "5, 3, 2, 3, 2, 2",
-        "syt_expires": "2027-05-05T00:00:00"
-      },
-      {
-        "district": "Armadillo",
-        "name": "Harris, Stephen Patrick",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 59 F, Pack 797 B, Troop 797 B",
-        "unit_health": "4, 2, 4",
-        "syt_expires": "2026-11-18T00:00:00"
-      },
-      {
-        "district": "Armadillo",
-        "name": "Ford, Benjamin Joseph",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 90 F",
-        "unit_health": "2",
-        "syt_expires": "2027-02-02T00:00:00"
-      },
-      {
-        "district": "Armadillo",
-        "name": "Courreges, Wayne Allen",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": null,
-        "unit_health": null,
-        "syt_expires": "2026-05-31T00:00:00"
+        "syt_expires": "2027-04-30T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Armadillo",
@@ -1177,87 +1448,150 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-05-02T00:00:00"
+        "syt_expires": "2027-05-02T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
-        "district": "Bee Cave",
-        "name": "Beckett, Daniel Edward",
-        "position": "Asst. District Commissioner",
+        "district": "Armadillo",
+        "name": "Mikheeva, Olga ",
+        "position": "Roundtable Commissioner",
         "trained": true,
         "ypt": false,
-        "assigned_units": "Crew 454, Troop 30 B, Troop 454 B, Troop 550 B, Troop 1010 B, Troop 4540 G",
-        "unit_health": "5, 4, 4, 4, 3, 4",
-        "syt_expires": "2027-01-08T00:00:00"
+        "assigned_units": "Crew 3, Crew 4, Pack 2 F, Pack 55 F, Troop 2 G, Troop 3 B, Troop 5 B, Troop 50 G, Troop 410 B, Troop 2019 G",
+        "unit_health": "2, 2, 2, 3, 4, 4, 3, 3, 3, 0",
+        "syt_expires": "2027-04-30T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
-        "district": "Bee Cave",
-        "name": "Marcie, Steven ",
-        "position": "Roundtable Commissioner",
+        "district": "Armadillo",
+        "name": "Hummell, Norman S",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 49 F, Pack 89 F, Troop 49 B, Troop 89 B, Troop 413 B, Troop 1407 B",
+        "unit_health": "5, 3, 2, 3, 2, 2",
+        "syt_expires": "2027-05-05T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
+      },
+      {
+        "district": "Armadillo",
+        "name": "Harris, Stephen Patrick",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 59 F, Pack 797 B, Troop 797 B",
+        "unit_health": "4, 2, 4",
+        "syt_expires": "2026-11-18T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
+      },
+      {
+        "district": "Armadillo",
+        "name": "Ford, Benjamin Joseph",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 90 F",
+        "unit_health": "2",
+        "syt_expires": "2027-02-02T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
+      },
+      {
+        "district": "Armadillo",
+        "name": "Courreges, Wayne Allen",
+        "position": "Unit Commissioner",
         "trained": true,
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-05-10T00:00:00"
+        "syt_expires": "2026-05-31T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
-        "district": "Bee Cave",
-        "name": "Johns, George ",
+        "district": "Armadillo",
+        "name": "Bailey, Michael Allen",
         "position": "Unit Commissioner",
         "trained": true,
         "ypt": false,
-        "assigned_units": "Pack 442 B, Pack 445 F, Pack 786 F, Troop 786 B",
-        "unit_health": "4, 3, 3, 3",
-        "syt_expires": "2027-01-25T00:00:00"
+        "assigned_units": "Pack 34 F, Troop 34 B",
+        "unit_health": "0, 1",
+        "syt_expires": "2026-05-31T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
-        "district": "Bee Cave",
-        "name": "Hettinger, Raymond ",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 66 F, Pack 91 F, Troop 990 B",
-        "unit_health": "3, 2, 2",
-        "syt_expires": "2027-05-27T00:00:00"
-      },
-      {
-        "district": "Bee Cave",
-        "name": "Hagan, Anne Daly",
+        "district": "Armadillo",
+        "name": "Aranda, Margarito ",
         "position": "District Commissioner",
         "trained": true,
         "ypt": false,
-        "assigned_units": "Ship 31",
-        "unit_health": "0",
-        "syt_expires": "2026-11-17T00:00:00"
+        "assigned_units": "Pack 14 F, Pack 33 F, Troop 33 B",
+        "unit_health": "3, 3, 5",
+        "syt_expires": "2026-05-31T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
-        "district": "Bee Cave",
-        "name": "Graham, Andrew Clark",
-        "position": "Asst. District Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 786 F, Troop 786 B",
-        "unit_health": "3, 3",
-        "syt_expires": "2027-06-03T00:00:00"
-      },
-      {
-        "district": "Bee Cave",
-        "name": "Ezell, James D",
+        "district": "Armadillo",
+        "name": "Kruemcke, Susan Robinson",
         "position": "Unit Commissioner",
-        "trained": false,
-        "ypt": false,
-        "assigned_units": "Pack 442 B, Troop 52 B",
-        "unit_health": "4, 4",
-        "syt_expires": "2027-03-16T00:00:00"
-      },
-      {
-        "district": "Bee Cave",
-        "name": "Browne, Edward Jamil",
-        "position": "Roundtable Commissioner",
         "trained": true,
         "ypt": false,
-        "assigned_units": null,
-        "unit_health": null,
-        "syt_expires": "2027-05-25T00:00:00"
+        "assigned_units": "Troop 2019 G",
+        "unit_health": "0",
+        "syt_expires": "2026-10-06T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Amara Davis",
+        "district_professional_role": "District Executive",
+        "district_chair": "David Stroud",
+        "district_commissioner_from_hierarchy": "Margarito Aranda",
+        "service_area_order": 1
       },
       {
         "district": "Bee Cave",
@@ -1267,7 +1601,150 @@
         "ypt": false,
         "assigned_units": "Pack 29 F, Pack 30 B, Troop 4443 G",
         "unit_health": "2, 1, 5",
-        "syt_expires": "2026-07-25T00:00:00"
+        "syt_expires": "2026-07-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Browne, Edward Jamil",
+        "position": "Roundtable Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": null,
+        "unit_health": null,
+        "syt_expires": "2027-05-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Ezell, James D",
+        "position": "Unit Commissioner",
+        "trained": false,
+        "ypt": false,
+        "assigned_units": "Pack 442 B, Troop 52 B",
+        "unit_health": "4, 4",
+        "syt_expires": "2027-03-16T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Graham, Andrew Clark",
+        "position": "Asst. District Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 786 F, Troop 786 B",
+        "unit_health": "3, 3",
+        "syt_expires": "2027-06-03T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Johns, George ",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 442 B, Pack 445 F, Pack 786 F, Troop 786 B",
+        "unit_health": "4, 3, 3, 3",
+        "syt_expires": "2027-01-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Hettinger, Raymond ",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 66 F, Pack 91 F, Troop 990 B",
+        "unit_health": "3, 2, 2",
+        "syt_expires": "2027-05-27T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Marcie, Steven ",
+        "position": "Roundtable Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": null,
+        "unit_health": null,
+        "syt_expires": "2027-05-10T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Beckett, Daniel Edward",
+        "position": "Asst. District Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Crew 454, Troop 30 B, Troop 454 B, Troop 550 B, Troop 1010 B, Troop 4540 G",
+        "unit_health": "5, 4, 4, 4, 3, 4",
+        "syt_expires": "2027-01-08T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
+      },
+      {
+        "district": "Bee Cave",
+        "name": "Hagan, Anne Daly",
+        "position": "District Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Ship 31",
+        "unit_health": "0",
+        "syt_expires": "2026-11-17T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Bee Cave",
@@ -1277,7 +1754,14 @@
         "ypt": false,
         "assigned_units": "Pack 29 F",
         "unit_health": "2",
-        "syt_expires": "2027-04-24T00:00:00"
+        "syt_expires": "2027-04-24T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Bee Cave",
@@ -1287,7 +1771,14 @@
         "ypt": false,
         "assigned_units": "Pack 72 F, Troop 31 B, Troop 70 B, Troop 72 G",
         "unit_health": "1, 5, 3, 4",
-        "syt_expires": "2027-06-02T00:00:00"
+        "syt_expires": "2027-06-02T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Bee Cave",
@@ -1297,7 +1788,14 @@
         "ypt": false,
         "assigned_units": "Pack 440 F, Troop 4411 G, Troop 7862 G",
         "unit_health": "3, 4, 4",
-        "syt_expires": "2027-04-25T00:00:00"
+        "syt_expires": "2027-04-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Jackson Hively",
+        "district_professional_role": "District Executive",
+        "district_chair": "Tracy Bates",
+        "district_commissioner_from_hierarchy": "Anne Hagan",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1307,7 +1805,14 @@
         "ypt": false,
         "assigned_units": "Ship 911",
         "unit_health": "2",
-        "syt_expires": "2027-06-01T00:00:00"
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1317,7 +1822,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-23T00:00:00"
+        "syt_expires": "2027-04-23T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1327,7 +1839,14 @@
         "ypt": false,
         "assigned_units": "Crew 565, Pack 97 F, Pack 162 F, Pack 265 F, Pack 333 F, Troop 146 B, Troop 165 B, Troop 345 B, Troop 513 B, Troop 3451 G, Troop 5131 G",
         "unit_health": "2, 5, 3, 3, 3, 4, 3, 5, 3, 5, 4",
-        "syt_expires": "2026-10-25T00:00:00"
+        "syt_expires": "2026-10-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1337,7 +1856,14 @@
         "ypt": false,
         "assigned_units": "Crew 565, Pack 97 F, Pack 162 F, Pack 265 F, Pack 333 F, Troop 146 B, Troop 165 B, Troop 345 B, Troop 513 B, Troop 3451 G, Troop 5131 G",
         "unit_health": "2, 5, 3, 3, 3, 4, 3, 5, 3, 5, 4",
-        "syt_expires": "2026-10-25T00:00:00"
+        "syt_expires": "2026-10-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1347,7 +1873,14 @@
         "ypt": false,
         "assigned_units": "Crew 565, Pack 97 F, Pack 162 F, Pack 265 F, Pack 333 F, Troop 146 B, Troop 165 B, Troop 345 B, Troop 513 B, Troop 3451 G, Troop 5131 G",
         "unit_health": "2, 5, 3, 3, 3, 4, 3, 5, 3, 5, 4",
-        "syt_expires": "2026-10-25T00:00:00"
+        "syt_expires": "2026-10-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1357,137 +1890,14 @@
         "ypt": false,
         "assigned_units": "Pack 27 F, Pack 165 F, Pack 562 F, Pack 653 F, Troop 154 B, Troop 365 B, Troop 562 B, Troop 565 B",
         "unit_health": "3, 4, 2, 0, 0, 3, 4, 4",
-        "syt_expires": "2027-06-14T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Teran, Edward A",
-        "position": "Asst. District Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 27 F, Pack 165 F, Pack 562 F, Pack 653 F, Troop 154 B, Troop 365 B, Troop 562 B, Troop 565 B",
-        "unit_health": "3, 4, 2, 0, 0, 3, 4, 4",
-        "syt_expires": "2027-06-14T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Oranday, Martin John",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 912 F",
-        "unit_health": "3",
-        "syt_expires": "2027-06-13T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Kline, Eric Richard",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Ship 911",
-        "unit_health": "2",
-        "syt_expires": "2027-06-01T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Oranday, Martin John",
-        "position": "Asst. District Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 912 F",
-        "unit_health": "3",
-        "syt_expires": "2027-06-13T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Avery, Kimberly Alyssa",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": null,
-        "unit_health": null,
-        "syt_expires": "2027-05-10T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Bourquin, Jennifer Caroline",
-        "position": "Roundtable Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": null,
-        "unit_health": null,
-        "syt_expires": "2027-05-18T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Cochran, Christy Engle",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Crew 157, Crew 365, Pack 565 F, Troop 3925 G, Troop 5621 G",
-        "unit_health": "4, 0, 2, 3, 2",
-        "syt_expires": "2027-04-12T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Collins, Andrew Michael",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 304 F",
-        "unit_health": "2",
-        "syt_expires": "2026-10-10T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Conrad, William Dennis",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Troop 159 B",
-        "unit_health": "3",
-        "syt_expires": "2027-03-22T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Deloach, Jeffrey Glen",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 404 F, Troop 27 B",
-        "unit_health": "3, 4",
-        "syt_expires": "2027-06-01T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Fairchok, William Joseph",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 176 B, Troop 350 B",
-        "unit_health": "5, 4",
-        "syt_expires": "2027-04-09T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Guerra, Andrea Nelda",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Pack 174 F, Troop 162 B",
-        "unit_health": "3, 3",
-        "syt_expires": "2027-04-22T00:00:00"
-      },
-      {
-        "district": "Chisholm Trail",
-        "name": "Nair, Ratish Sadanandan",
-        "position": "Unit Commissioner",
-        "trained": true,
-        "ypt": false,
-        "assigned_units": "Troop 5651 G",
-        "unit_health": "2",
-        "syt_expires": "2027-04-19T00:00:00"
+        "syt_expires": "2027-06-14T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1497,7 +1907,150 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-03-05T00:00:00"
+        "syt_expires": "2027-03-05T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Oranday, Martin John",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 912 F",
+        "unit_health": "3",
+        "syt_expires": "2027-06-13T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Kline, Eric Richard",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Ship 911",
+        "unit_health": "2",
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Oranday, Martin John",
+        "position": "Asst. District Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 912 F",
+        "unit_health": "3",
+        "syt_expires": "2027-06-13T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Avery, Kimberly Alyssa",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": null,
+        "unit_health": null,
+        "syt_expires": "2027-05-10T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Bourquin, Jennifer Caroline",
+        "position": "Roundtable Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": null,
+        "unit_health": null,
+        "syt_expires": "2027-05-18T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Cochran, Christy Engle",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Crew 157, Crew 365, Pack 565 F, Troop 3925 G, Troop 5621 G",
+        "unit_health": "4, 0, 2, 3, 2",
+        "syt_expires": "2027-04-12T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Collins, Andrew Michael",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 304 F",
+        "unit_health": "2",
+        "syt_expires": "2026-10-10T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Conrad, William Dennis",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Troop 159 B",
+        "unit_health": "3",
+        "syt_expires": "2027-03-22T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Chisholm Trail",
@@ -1507,7 +2060,99 @@
         "ypt": false,
         "assigned_units": "Pack 167 F",
         "unit_health": "3",
-        "syt_expires": "2027-04-09T00:00:00"
+        "syt_expires": "2027-04-09T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Fairchok, William Joseph",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 176 B, Troop 350 B",
+        "unit_health": "5, 4",
+        "syt_expires": "2027-04-09T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Guerra, Andrea Nelda",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 174 F, Troop 162 B",
+        "unit_health": "3, 3",
+        "syt_expires": "2027-04-22T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Nair, Ratish Sadanandan",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Troop 5651 G",
+        "unit_health": "2",
+        "syt_expires": "2027-04-19T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Teran, Edward A",
+        "position": "Asst. District Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 27 F, Pack 165 F, Pack 562 F, Pack 653 F, Troop 154 B, Troop 365 B, Troop 562 B, Troop 565 B",
+        "unit_health": "3, 4, 2, 0, 0, 3, 4, 4",
+        "syt_expires": "2027-06-14T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
+      },
+      {
+        "district": "Chisholm Trail",
+        "name": "Deloach, Jeffrey Glen",
+        "position": "Unit Commissioner",
+        "trained": true,
+        "ypt": false,
+        "assigned_units": "Pack 404 F, Troop 27 B",
+        "unit_health": "3, 4",
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Beccy Alston",
+        "district_professional_role": "District Executive",
+        "district_chair": "Brandon Simon",
+        "district_commissioner_from_hierarchy": "Eric Kline",
+        "service_area_order": 0
       },
       {
         "district": "Colorado River",
@@ -1517,7 +2162,14 @@
         "ypt": false,
         "assigned_units": "Pack 182 F, Pack 183 F, Pack 471 F, Troop 182 B, Troop 472 B, Troop 473 G",
         "unit_health": "2, 2, 3, 3, 1, 2",
-        "syt_expires": "2027-06-01T00:00:00"
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "Dane Louvier",
+        "district_commissioner_from_hierarchy": "James Adams",
+        "service_area_order": 1
       },
       {
         "district": "Colorado River",
@@ -1527,7 +2179,14 @@
         "ypt": false,
         "assigned_units": "Troop 142 B",
         "unit_health": "1",
-        "syt_expires": "2027-04-18T00:00:00"
+        "syt_expires": "2027-04-18T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "Dane Louvier",
+        "district_commissioner_from_hierarchy": "James Adams",
+        "service_area_order": 1
       },
       {
         "district": "Colorado River",
@@ -1537,7 +2196,14 @@
         "ypt": false,
         "assigned_units": "Troop 98 G, Troop 1423 B",
         "unit_health": "1, 3",
-        "syt_expires": "2027-06-19T00:00:00"
+        "syt_expires": "2027-06-19T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "Dane Louvier",
+        "district_commissioner_from_hierarchy": "James Adams",
+        "service_area_order": 1
       },
       {
         "district": "Colorado River",
@@ -1547,7 +2213,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-03-02T00:00:00"
+        "syt_expires": "2027-03-02T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "Dane Louvier",
+        "district_commissioner_from_hierarchy": "James Adams",
+        "service_area_order": 1
       },
       {
         "district": "Exploring",
@@ -1557,7 +2230,14 @@
         "ypt": false,
         "assigned_units": "Post 247, Post 2158, Post 4077",
         "unit_health": "1, 1, 0",
-        "syt_expires": "2026-11-05T00:00:00"
+        "syt_expires": "2026-11-05T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "JP Perkins",
+        "district_professional_role": "Exploring Executive",
+        "district_chair": null,
+        "district_commissioner_from_hierarchy": "Dennis Eibe",
+        "service_area_order": 1
       },
       {
         "district": "Exploring",
@@ -1567,7 +2247,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2026-06-08T00:00:00"
+        "syt_expires": "2026-06-08T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "JP Perkins",
+        "district_professional_role": "Exploring Executive",
+        "district_chair": null,
+        "district_commissioner_from_hierarchy": "Dennis Eibe",
+        "service_area_order": 1
       },
       {
         "district": "Hill Country",
@@ -1577,7 +2264,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2026-09-04T00:00:00"
+        "syt_expires": "2026-09-04T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1587,7 +2281,14 @@
         "ypt": false,
         "assigned_units": "Troop 284 B, Troop 2840 G",
         "unit_health": "4, 2",
-        "syt_expires": "2026-10-02T00:00:00"
+        "syt_expires": "2026-10-02T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1597,7 +2298,14 @@
         "ypt": false,
         "assigned_units": "Pack 281 F, Pack 284 F, Pack 296 F, Pack 301 F, Pack 497 F, Troop 281 B, Troop 497 B",
         "unit_health": "1, 2, 3, 2, 3, 1, 2",
-        "syt_expires": "2026-07-29T00:00:00"
+        "syt_expires": "2026-07-29T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1607,7 +2315,14 @@
         "ypt": false,
         "assigned_units": "Pack 281 F, Pack 284 F, Pack 296 F, Pack 301 F, Pack 497 F, Troop 281 B, Troop 497 B",
         "unit_health": "1, 2, 3, 2, 3, 1, 2",
-        "syt_expires": "2026-07-29T00:00:00"
+        "syt_expires": "2026-07-29T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1617,7 +2332,14 @@
         "ypt": false,
         "assigned_units": "Pack 135 F, Pack 139 F, Troop 135 B, Troop 137 B, Troop 139 B",
         "unit_health": "1, 0, 1, 1, 0",
-        "syt_expires": "2026-11-05T00:00:00"
+        "syt_expires": "2026-11-05T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1627,7 +2349,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-05-23T00:00:00"
+        "syt_expires": "2027-05-23T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1637,7 +2366,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-04T00:00:00"
+        "syt_expires": "2027-06-04T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Hill Country",
@@ -1647,7 +2383,14 @@
         "ypt": false,
         "assigned_units": "Troop 284 B, Troop 2840 G",
         "unit_health": "4, 2",
-        "syt_expires": "2026-10-02T00:00:00"
+        "syt_expires": "2026-10-02T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Andrew Lowenthal",
+        "district_professional_role": "Community Executive",
+        "district_chair": "Paul Corley",
+        "district_commissioner_from_hierarchy": "Dennis Rose",
+        "service_area_order": 0
       },
       {
         "district": "Live Oak",
@@ -1657,7 +2400,14 @@
         "ypt": false,
         "assigned_units": "Pack 223 B, Pack 231 F, Pack 9000 B, Troop 223 B, Troop 231 B",
         "unit_health": "2, 1, 0, 4, 1",
-        "syt_expires": "2027-04-23T00:00:00"
+        "syt_expires": "2027-04-23T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -1667,7 +2417,14 @@
         "ypt": false,
         "assigned_units": "Troop 228 B",
         "unit_health": "3",
-        "syt_expires": "2027-03-29T00:00:00"
+        "syt_expires": "2027-03-29T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -1677,7 +2434,14 @@
         "ypt": false,
         "assigned_units": "Pack 224 F",
         "unit_health": "1",
-        "syt_expires": "2026-11-12T00:00:00"
+        "syt_expires": "2026-11-12T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -1687,7 +2451,14 @@
         "ypt": false,
         "assigned_units": "Crew 263, Pack 261 F, Troop 262 B",
         "unit_health": "1, 3, 2",
-        "syt_expires": "2027-06-01T00:00:00"
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "Live Oak",
@@ -1696,8 +2467,15 @@
         "trained": true,
         "ypt": false,
         "assigned_units": "Pack 103 B, Pack 109 F, Troop 109 B, Troop 1109 G",
-        "unit_health": "1, 4, 3, 2",
-        "syt_expires": "2027-04-14T00:00:00"
+        "unit_health": "1, 5, 3, 2",
+        "syt_expires": "2027-04-14T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Vacant",
+        "district_professional_role": "",
+        "district_chair": "",
+        "district_commissioner_from_hierarchy": "David Spencer",
+        "service_area_order": 2
       },
       {
         "district": "North Shore",
@@ -1707,7 +2485,14 @@
         "ypt": false,
         "assigned_units": "Troop 219 G, Troop 271 B, Troop 2008 B",
         "unit_health": "4, 4, 3",
-        "syt_expires": "2027-05-02T00:00:00"
+        "syt_expires": "2027-05-02T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1717,7 +2502,14 @@
         "ypt": false,
         "assigned_units": "Troop 219 G, Troop 271 B, Troop 2008 B",
         "unit_health": "4, 4, 3",
-        "syt_expires": "2027-05-02T00:00:00"
+        "syt_expires": "2027-05-02T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1727,7 +2519,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-12T00:00:00"
+        "syt_expires": "2027-04-12T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1735,9 +2534,16 @@
         "position": "District Commissioner",
         "trained": true,
         "ypt": false,
-        "assigned_units": "Pack 201 F, Troop 202 B",
-        "unit_health": "3, 4",
-        "syt_expires": "2027-05-30T00:00:00"
+        "assigned_units": null,
+        "unit_health": null,
+        "syt_expires": "2027-05-30T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1745,9 +2551,16 @@
         "position": "Roundtable Commissioner",
         "trained": true,
         "ypt": false,
-        "assigned_units": "Pack 201 F, Troop 202 B",
-        "unit_health": "3, 4",
-        "syt_expires": "2027-05-30T00:00:00"
+        "assigned_units": null,
+        "unit_health": null,
+        "syt_expires": "2027-05-30T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1757,7 +2570,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-23T00:00:00"
+        "syt_expires": "2027-04-23T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1767,7 +2587,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-23T00:00:00"
+        "syt_expires": "2027-04-23T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1777,7 +2604,14 @@
         "ypt": false,
         "assigned_units": "Crew 1691",
         "unit_health": "4",
-        "syt_expires": "2027-04-09T00:00:00"
+        "syt_expires": "2027-04-09T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1787,7 +2621,14 @@
         "ypt": false,
         "assigned_units": "Pack 799 B, Troop 799 B",
         "unit_health": "1, 5",
-        "syt_expires": "2027-05-20T00:00:00"
+        "syt_expires": "2027-05-20T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1797,7 +2638,14 @@
         "ypt": false,
         "assigned_units": "Pack 799 B, Troop 799 B",
         "unit_health": "1, 5",
-        "syt_expires": "2027-05-20T00:00:00"
+        "syt_expires": "2027-05-20T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1807,7 +2655,14 @@
         "ypt": false,
         "assigned_units": "Pack 160 F, Pack 172 F",
         "unit_health": "2, 5",
-        "syt_expires": "2027-05-19T00:00:00"
+        "syt_expires": "2027-05-19T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1817,7 +2672,14 @@
         "ypt": false,
         "assigned_units": "Pack 799 B, Troop 799 B",
         "unit_health": "1, 5",
-        "syt_expires": "2027-05-20T00:00:00"
+        "syt_expires": "2027-05-20T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1827,7 +2689,14 @@
         "ypt": false,
         "assigned_units": "Troop 258 B, Troop 358 G",
         "unit_health": "5, 5",
-        "syt_expires": "2027-05-31T00:00:00"
+        "syt_expires": "2027-05-31T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1837,7 +2706,14 @@
         "ypt": false,
         "assigned_units": "Pack 160 F, Pack 172 F",
         "unit_health": "2, 5",
-        "syt_expires": "2027-05-19T00:00:00"
+        "syt_expires": "2027-05-19T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1847,7 +2723,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-03-25T00:00:00"
+        "syt_expires": "2027-03-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1857,7 +2740,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-03-25T00:00:00"
+        "syt_expires": "2027-03-25T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1867,7 +2757,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-29T00:00:00"
+        "syt_expires": "2027-04-29T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1877,7 +2774,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-29T00:00:00"
+        "syt_expires": "2027-04-29T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "North Shore",
@@ -1887,7 +2791,14 @@
         "ypt": false,
         "assigned_units": "Pack 170 F",
         "unit_health": "5",
-        "syt_expires": "2027-03-29T00:00:00"
+        "syt_expires": "2027-03-29T00:00:00",
+        "service_area": "Northern Service Area",
+        "service_area_field_director": "Justin Brundin",
+        "district_professional": "Summer Jones",
+        "district_professional_role": "District Executive",
+        "district_chair": "Darryl Agostinelli",
+        "district_commissioner_from_hierarchy": "Timothy Pacl",
+        "service_area_order": 0
       },
       {
         "district": "Sacred Springs",
@@ -1897,7 +2808,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-28T00:00:00"
+        "syt_expires": "2027-04-28T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1907,7 +2825,14 @@
         "ypt": false,
         "assigned_units": "Pack 101 F, Troop 280 B",
         "unit_health": "3, 4",
-        "syt_expires": "2027-05-13T00:00:00"
+        "syt_expires": "2027-05-13T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1917,7 +2842,14 @@
         "ypt": false,
         "assigned_units": "Pack 4 F, Pack 1836 F, Troop 18 B, Troop 24 G, Troop 101 B, Troop 112 B, Troop 128 B, Troop 218 B",
         "unit_health": "5, 0, 1, 2, 2, 2, 1, 3",
-        "syt_expires": "2027-06-01T00:00:00"
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1927,7 +2859,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-05-31T00:00:00"
+        "syt_expires": "2027-05-31T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1937,7 +2876,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-26T00:00:00"
+        "syt_expires": "2026-05-31T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1947,7 +2893,14 @@
         "ypt": false,
         "assigned_units": "Pack 125 F, Pack 812 F, Troop 125 B, Troop 812 B, Troop 1948 G",
         "unit_health": "1, 3, 2, 3, 1",
-        "syt_expires": "2027-06-17T00:00:00"
+        "syt_expires": "2027-06-17T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1957,7 +2910,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-05T00:00:00"
+        "syt_expires": "2027-06-05T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1967,7 +2927,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-01T00:00:00"
+        "syt_expires": "2027-06-01T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "Sacred Springs",
@@ -1977,7 +2944,14 @@
         "ypt": false,
         "assigned_units": "Pack 105 F, Pack 128 F, Pack 967 F",
         "unit_health": "2, 4, 2",
-        "syt_expires": "2027-04-02T00:00:00"
+        "syt_expires": "2027-04-02T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Stacy Lasater",
+        "district_professional_role": "District Executive",
+        "district_chair": "Nathaniel Miller",
+        "district_commissioner_from_hierarchy": "Felix Sassenhagen",
+        "service_area_order": 2
       },
       {
         "district": "San Gabriel",
@@ -1987,7 +2961,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2026-07-09T00:00:00"
+        "syt_expires": "2026-07-09T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "San Gabriel",
@@ -1997,7 +2978,14 @@
         "ypt": false,
         "assigned_units": "Crew 8787, Pack 406 F, Troop 8787 B",
         "unit_health": "2, 4, 2",
-        "syt_expires": "2027-05-09T00:00:00"
+        "syt_expires": "2027-05-09T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "San Gabriel",
@@ -2007,7 +2995,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-02T00:00:00"
+        "syt_expires": "2027-06-02T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "San Gabriel",
@@ -2017,7 +3012,14 @@
         "ypt": false,
         "assigned_units": "Troop 2338 B",
         "unit_health": "4",
-        "syt_expires": "2027-04-01T00:00:00"
+        "syt_expires": "2027-04-01T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "San Gabriel",
@@ -2027,7 +3029,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2026-12-03T00:00:00"
+        "syt_expires": "2026-12-03T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "San Gabriel",
@@ -2037,7 +3046,14 @@
         "ypt": false,
         "assigned_units": "Crew 405, Pack 151 F, Pack 196 F, Pack 2338 B, Ship 405, Troop 64 B, Troop 151 B, Troop 155 B, Troop 196 B, Troop 405 B, Troop 2338 B, Troop 4050 G",
         "unit_health": "3, 3, 3, 2, 0, 0, 4, 4, 3, 3, 4, 3",
-        "syt_expires": "2027-04-01T00:00:00"
+        "syt_expires": "2027-04-01T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Derek Tarnow",
+        "district_professional_role": "District Executive",
+        "district_chair": "Jason Suggs",
+        "district_commissioner_from_hierarchy": "Jack Ward",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2047,7 +3063,14 @@
         "ypt": false,
         "assigned_units": "Pack 25 B, Troop 25 B",
         "unit_health": "2, 3",
-        "syt_expires": "2027-05-16T00:00:00"
+        "syt_expires": "2027-05-16T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2057,7 +3080,14 @@
         "ypt": false,
         "assigned_units": "Pack 535 F",
         "unit_health": "3",
-        "syt_expires": "2027-05-30T00:00:00"
+        "syt_expires": "2027-05-30T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2067,7 +3097,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-04T00:00:00"
+        "syt_expires": "2027-06-04T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2077,7 +3114,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-06-14T00:00:00"
+        "syt_expires": "2027-06-14T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2087,7 +3131,14 @@
         "ypt": false,
         "assigned_units": null,
         "unit_health": null,
-        "syt_expires": "2027-04-04T00:00:00"
+        "syt_expires": "2027-04-04T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2097,7 +3148,14 @@
         "ypt": false,
         "assigned_units": "Pack 395 F, Troop 395 B, Troop 3377 B",
         "unit_health": "2, 2, 2",
-        "syt_expires": "2027-05-30T00:00:00"
+        "syt_expires": "2027-05-30T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2107,7 +3165,14 @@
         "ypt": false,
         "assigned_units": "Pack 81 F",
         "unit_health": "4",
-        "syt_expires": "2027-04-17T00:00:00"
+        "syt_expires": "2027-04-17T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Thunderbird",
@@ -2117,7 +3182,14 @@
         "ypt": false,
         "assigned_units": "Pack 25 B, Troop 25 B",
         "unit_health": "2, 3",
-        "syt_expires": "2027-05-16T00:00:00"
+        "syt_expires": "2027-05-16T00:00:00",
+        "service_area": "Central Service Area",
+        "service_area_field_director": "Vicki Rosengarten",
+        "district_professional": "Sherrick West",
+        "district_professional_role": "District Executive",
+        "district_chair": "Karin Mastervich",
+        "district_commissioner_from_hierarchy": "William Orner",
+        "service_area_order": 1
       },
       {
         "district": "Waterloo",
@@ -2127,7 +3199,14 @@
         "ypt": false,
         "assigned_units": "Pack 1 F, Troop 7414 B",
         "unit_health": "2, 3",
-        "syt_expires": "2027-02-04T00:00:00"
+        "syt_expires": "2027-02-04T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
       },
       {
         "district": "Waterloo",
@@ -2137,35 +3216,114 @@
         "ypt": false,
         "assigned_units": "Pack 22 F, Pack 1135 F",
         "unit_health": "0, 1",
-        "syt_expires": "2027-06-19T00:00:00"
+        "syt_expires": "2027-06-19T00:00:00",
+        "service_area": "Southern Service Area",
+        "service_area_field_director": "Ed Grune",
+        "district_professional": "Kemi Ademuyewo",
+        "district_professional_role": "District Director",
+        "district_chair": "Bobby Williams Sr",
+        "district_commissioner_from_hierarchy": "Dale Clay",
+        "service_area_order": 2
+      }
+    ],
+    "service_area_source": "monday.com Field Service / Service Areas",
+    "service_hierarchy": {
+      "source": "monday.com Field Service / Service Areas",
+      "board_id": 18420160563,
+      "board_name": "Service Areas",
+      "captured_at": "2026-07-01T19:48:00-05:00"
+    },
+    "service_areas": [
+      {
+        "service_area": "Northern Service Area",
+        "field_director": "Justin Brundin",
+        "service_area_order": 0,
+        "districts": [
+          "Bee Cave",
+          "Chisholm Trail",
+          "Hill Country",
+          "North Shore"
+        ],
+        "units": 118.0,
+        "members": 3609.0,
+        "yoy_delta": -81.0,
+        "yoy_pct": -0.02195121951219512,
+        "assigned_pct": 0.7288135593220338,
+        "at_risk_units": 37,
+        "at_risk_rate": 0.3135593220338983,
+        "avg_metric": 3.0508474576271185,
+        "training_pct": 0.6500628617450732,
+        "syt_pct": 0.8458686131532159
+      },
+      {
+        "service_area": "Central Service Area",
+        "field_director": "Vicki Rosengarten",
+        "service_area_order": 1,
+        "districts": [
+          "Armadillo",
+          "Colorado River",
+          "Exploring",
+          "San Gabriel",
+          "Thunderbird"
+        ],
+        "units": 113.0,
+        "members": 3008.0,
+        "yoy_delta": 26.0,
+        "yoy_pct": 0.008718980549966466,
+        "assigned_pct": 0.5575221238938053,
+        "at_risk_units": 52,
+        "at_risk_rate": 0.46017699115044247,
+        "avg_metric": 2.584070796460177,
+        "training_pct": 0.5321231335038948,
+        "syt_pct": 0.8349465465068868
+      },
+      {
+        "service_area": "Southern Service Area",
+        "field_director": "Ed Grune",
+        "service_area_order": 2,
+        "districts": [
+          "Live Oak",
+          "Sacred Springs",
+          "Waterloo"
+        ],
+        "units": 63.0,
+        "members": 1302.0,
+        "yoy_delta": -44.0,
+        "yoy_pct": -0.03268945022288262,
+        "assigned_pct": 0.5714285714285714,
+        "at_risk_units": 38,
+        "at_risk_rate": 0.6031746031746031,
+        "avg_metric": 2.1746031746031744,
+        "training_pct": 0.5086929249486828,
+        "syt_pct": 0.8609148289550944
       }
     ]
   },
   "cst": {
-    "source": "/Users/petersargent/Library/CloudStorage/GoogleDrive-peter@imetpetersargent.com/Shared drives/Council Metric Reports/2026-06-27_CST7.xlsx",
-    "source_name": "2026-06-27_CST7.xlsx",
-    "source_mtime": "2026-06-27T08:35:09",
+    "source": "/Users/petersargent/Library/CloudStorage/GoogleDrive-peter@imetpetersargent.com/Shared drives/Council Metric Reports/2026-06-25_CST7.xlsx",
+    "source_name": "2026-06-25_CST7.xlsx",
+    "source_mtime": "2026-06-25T09:05:08",
     "capitol": {
       "council": "Capitol Area Council 564",
       "units": 294.0,
-      "members": 7923.0,
-      "yoy_delta": -95.0,
-      "yoy_pct": -0.011848341232227487,
+      "members": 7919.0,
+      "yoy_delta": -99.0,
+      "yoy_pct": -0.01234721875779496,
       "yoy_rank": 4.0,
-      "year_end_delta": -1001.0,
-      "year_end_pct": -0.12634103243720812,
+      "year_end_delta": -1005.0,
+      "year_end_pct": -0.12690996337921454,
       "year_end_rank": 5.0,
       "total_youth_served": 8106.0,
-      "total_adults": 4548.0,
+      "total_adults": 4824.0,
       "syt_pct": 0.7606980635907243,
-      "avg_metric": 2.6700680272108843,
-      "metric_0_2_count": 129.0,
-      "metric_3_count": 79.0,
-      "metric_4_5_count": 86.0,
-      "metric_0_2_rate": 0.4387755102040816,
-      "metric_4_5_rate": 0.2925170068027211,
-      "ul_cc_trained_rate": 0.4387755102040816,
-      "small_unit_rate": 0.717687074829932,
+      "avg_metric": 2.683673469387755,
+      "metric_0_2_count": 127.0,
+      "metric_3_count": 80.0,
+      "metric_4_5_count": 87.0,
+      "metric_0_2_rate": 0.43197278911564624,
+      "metric_4_5_rate": 0.29591836734693877,
+      "ul_cc_trained_rate": 0.4557823129251701,
+      "small_unit_rate": 0.7142857142857143,
       "pack_connect_pct": 0.3821,
       "troop_connect_pct": 0.3897,
       "not_renewed_pct": 0.34,
@@ -2174,21 +3332,21 @@
     "service_territory": {
       "council": "Service Territory 07",
       "units": 1831.0,
-      "members": 50230.0,
-      "yoy_delta": -890.0,
-      "yoy_pct": -0.01741001564945227,
-      "year_end_delta": -6712.0,
-      "year_end_pct": -0.1336253235118455,
-      "total_youth_served": 50961.0,
-      "total_adults": 24315.0,
+      "members": 50215.0,
+      "yoy_delta": -905.0,
+      "yoy_pct": -0.017703442879499216,
+      "year_end_delta": -6727.0,
+      "year_end_pct": -0.13396395499352784,
+      "total_youth_served": 50950.0,
+      "total_adults": 24574.0,
       "syt_pct": 0.787718369507676,
-      "avg_metric": 2.416210295728368,
-      "metric_0_2_count": 937.0,
-      "metric_3_count": 442.0,
+      "avg_metric": 2.4227820372398687,
+      "metric_0_2_count": 936.0,
+      "metric_3_count": 443.0,
       "metric_4_5_count": 447.0,
-      "metric_0_2_rate": 0.5131434830230011,
+      "metric_0_2_rate": 0.5125958378970427,
       "metric_4_5_rate": 0.2447973713033954,
-      "ul_cc_trained_rate": 0.4687842278203724,
+      "ul_cc_trained_rate": 0.4709748083242059,
       "small_unit_rate": 0.6133625410733844,
       "pack_connect_pct": 0.4764,
       "troop_connect_pct": 0.4334,
@@ -2199,35 +3357,35 @@
       {
         "council": "CST 7",
         "units": 1831.0,
-        "members": 50230.0,
-        "yoy_delta": -890.0,
-        "yoy_pct": -0.01741001564945227,
+        "members": 50215.0,
+        "yoy_delta": -905.0,
+        "yoy_pct": -0.017703442879499216,
         "yoy_rank": null,
-        "year_end_delta": -6712.0,
-        "year_end_pct": -0.1336253235118455,
+        "year_end_delta": -6727.0,
+        "year_end_pct": -0.13396395499352784,
         "year_end_rank": null,
-        "total_youth_served": 50961.0,
-        "total_adults": 24315.0,
+        "total_youth_served": 50950.0,
+        "total_adults": 24574.0,
         "syt_pct": 0.787718369507676
       },
       {
         "council": "Sam Houston Area Council 576",
         "units": 620.0,
-        "members": 25175.0,
-        "yoy_delta": 1196.0,
-        "yoy_pct": 0.04987697568705951,
+        "members": 25174.0,
+        "yoy_delta": 1195.0,
+        "yoy_pct": 0.04983527253013053,
         "yoy_rank": 1.0,
-        "year_end_delta": -2358.0,
-        "year_end_pct": -0.0936643495531281,
+        "year_end_delta": -2359.0,
+        "year_end_pct": -0.09370779375546198,
         "year_end_rank": 3.0,
-        "total_youth_served": 25613.0,
-        "total_adults": 10471.0,
+        "total_youth_served": 25612.0,
+        "total_adults": 10466.0,
         "syt_pct": 0.7525322283609577,
-        "avg_metric": 2.8209677419354837,
-        "metric_0_2_count": 233.0,
-        "metric_3_count": 174.0,
+        "avg_metric": 2.82741935483871,
+        "metric_0_2_count": 234.0,
+        "metric_3_count": 173.0,
         "metric_4_5_count": 213.0,
-        "metric_0_2_rate": 0.3758064516129032,
+        "metric_0_2_rate": 0.3774193548387097,
         "metric_4_5_rate": 0.3435483870967742,
         "ul_cc_trained_rate": 0.5645161290322581,
         "small_unit_rate": 0.7258064516129032,
@@ -2239,24 +3397,24 @@
       {
         "council": "Capitol Area Council 564",
         "units": 294.0,
-        "members": 7923.0,
-        "yoy_delta": -95.0,
-        "yoy_pct": -0.011848341232227487,
+        "members": 7919.0,
+        "yoy_delta": -99.0,
+        "yoy_pct": -0.01234721875779496,
         "yoy_rank": 4.0,
-        "year_end_delta": -1001.0,
-        "year_end_pct": -0.12634103243720812,
+        "year_end_delta": -1005.0,
+        "year_end_pct": -0.12690996337921454,
         "year_end_rank": 5.0,
         "total_youth_served": 8106.0,
-        "total_adults": 4548.0,
+        "total_adults": 4824.0,
         "syt_pct": 0.7606980635907243,
-        "avg_metric": 2.6700680272108843,
-        "metric_0_2_count": 129.0,
-        "metric_3_count": 79.0,
-        "metric_4_5_count": 86.0,
-        "metric_0_2_rate": 0.4387755102040816,
-        "metric_4_5_rate": 0.2925170068027211,
-        "ul_cc_trained_rate": 0.4387755102040816,
-        "small_unit_rate": 0.717687074829932,
+        "avg_metric": 2.683673469387755,
+        "metric_0_2_count": 127.0,
+        "metric_3_count": 80.0,
+        "metric_4_5_count": 87.0,
+        "metric_0_2_rate": 0.43197278911564624,
+        "metric_4_5_rate": 0.29591836734693877,
+        "ul_cc_trained_rate": 0.4557823129251701,
+        "small_unit_rate": 0.7142857142857143,
         "pack_connect_pct": 0.3821,
         "troop_connect_pct": 0.3897,
         "not_renewed_pct": 0.34,
@@ -2265,24 +3423,24 @@
       {
         "council": "Alamo Area Council 583",
         "units": 173.0,
-        "members": 3882.0,
-        "yoy_delta": -335.0,
-        "yoy_pct": -0.07944036044581455,
+        "members": 3880.0,
+        "yoy_delta": -337.0,
+        "yoy_pct": -0.07991463125444628,
         "yoy_rank": 8.0,
-        "year_end_delta": -559.0,
-        "year_end_pct": -0.14399793920659454,
+        "year_end_delta": -561.0,
+        "year_end_pct": -0.1445876288659794,
         "year_end_rank": 6.0,
-        "total_youth_served": 4013.0,
-        "total_adults": 2375.0,
+        "total_youth_served": 4010.0,
+        "total_adults": 2369.0,
         "syt_pct": 0.9973725696269049,
-        "avg_metric": 2.8265895953757227,
-        "metric_0_2_count": 68.0,
+        "avg_metric": 2.820809248554913,
+        "metric_0_2_count": 69.0,
         "metric_3_count": 40.0,
-        "metric_4_5_count": 65.0,
-        "metric_0_2_rate": 0.3930635838150289,
-        "metric_4_5_rate": 0.37572254335260113,
-        "ul_cc_trained_rate": 0.8323699421965318,
-        "small_unit_rate": 0.6069364161849711,
+        "metric_4_5_count": 64.0,
+        "metric_0_2_rate": 0.3988439306358382,
+        "metric_4_5_rate": 0.3699421965317919,
+        "ul_cc_trained_rate": 0.8208092485549133,
+        "small_unit_rate": 0.6127167630057804,
         "pack_connect_pct": 0.7846,
         "troop_connect_pct": 0.7391,
         "not_renewed_pct": 0.0276,
@@ -2301,11 +3459,11 @@
         "total_youth_served": 2422.0,
         "total_adults": 1030.0,
         "syt_pct": 0.8425480769230769,
-        "avg_metric": 1.944954128440367,
-        "metric_0_2_count": 72.0,
-        "metric_3_count": 26.0,
+        "avg_metric": 1.9357798165137614,
+        "metric_0_2_count": 73.0,
+        "metric_3_count": 25.0,
         "metric_4_5_count": 11.0,
-        "metric_0_2_rate": 0.6605504587155964,
+        "metric_0_2_rate": 0.6697247706422018,
         "metric_4_5_rate": 0.10091743119266056,
         "ul_cc_trained_rate": 0.3761467889908257,
         "small_unit_rate": 0.5321100917431193,
@@ -2317,23 +3475,23 @@
       {
         "council": "Istrouma Area Council 211",
         "units": 108.0,
-        "members": 2118.0,
-        "yoy_delta": -206.0,
-        "yoy_pct": -0.08864027538726334,
+        "members": 2109.0,
+        "yoy_delta": -215.0,
+        "yoy_pct": -0.09251290877796901,
         "yoy_rank": 9.0,
-        "year_end_delta": -386.0,
-        "year_end_pct": -0.182247403210576,
+        "year_end_delta": -395.0,
+        "year_end_pct": -0.18729255571360834,
         "year_end_rank": 9.0,
-        "total_youth_served": 2112.0,
+        "total_youth_served": 2104.0,
         "total_adults": 1176.0,
         "syt_pct": 0.820079522862823,
-        "avg_metric": 2.0654205607476634,
-        "metric_0_2_count": 66.0,
-        "metric_3_count": 25.0,
+        "avg_metric": 2.0841121495327104,
+        "metric_0_2_count": 65.0,
+        "metric_3_count": 26.0,
         "metric_4_5_count": 16.0,
-        "metric_0_2_rate": 0.616822429906542,
+        "metric_0_2_rate": 0.6074766355140186,
         "metric_4_5_rate": 0.14953271028037382,
-        "ul_cc_trained_rate": 0.3364485981308411,
+        "ul_cc_trained_rate": 0.34579439252336447,
         "small_unit_rate": 0.5327102803738317,
         "pack_connect_pct": 0.18,
         "troop_connect_pct": 0.1837,
@@ -2351,7 +3509,7 @@
         "year_end_pct": -0.17197452229299362,
         "year_end_rank": 7.0,
         "total_youth_served": 1628.0,
-        "total_adults": 962.0,
+        "total_adults": 961.0,
         "syt_pct": 0.6975381008206331,
         "avg_metric": 2.6363636363636362,
         "metric_0_2_count": 27.0,
@@ -2377,9 +3535,9 @@
         "year_end_pct": -0.17823908375089478,
         "year_end_rank": 8.0,
         "total_youth_served": 1401.0,
-        "total_adults": 825.0,
+        "total_adults": 822.0,
         "syt_pct": 0.7922971114167813,
-        "avg_metric": 1.826086956521739,
+        "avg_metric": 1.8369565217391304,
         "metric_0_2_count": 64.0,
         "metric_3_count": 19.0,
         "metric_4_5_count": 9.0,
@@ -2405,7 +3563,7 @@
         "total_youth_served": 876.0,
         "total_adults": 468.0,
         "syt_pct": 0.608433734939759,
-        "avg_metric": 1.53125,
+        "avg_metric": 1.5625,
         "metric_0_2_count": 50.0,
         "metric_3_count": 9.0,
         "metric_4_5_count": 5.0,
@@ -2429,13 +3587,13 @@
         "year_end_pct": -0.07833537331701346,
         "year_end_rank": 1.0,
         "total_youth_served": 838.0,
-        "total_adults": 444.0,
+        "total_adults": 445.0,
         "syt_pct": 0.7833333333333333,
-        "avg_metric": 1.9166666666666667,
-        "metric_0_2_count": 35.0,
-        "metric_3_count": 7.0,
+        "avg_metric": 1.9375,
+        "metric_0_2_count": 34.0,
+        "metric_3_count": 8.0,
         "metric_4_5_count": 6.0,
-        "metric_0_2_rate": 0.7291666666666666,
+        "metric_0_2_rate": 0.7083333333333334,
         "metric_4_5_rate": 0.125,
         "ul_cc_trained_rate": 0.2708333333333333,
         "small_unit_rate": 0.4791666666666667,
@@ -2447,14 +3605,14 @@
       {
         "council": "Rio Grande Council 775",
         "units": 55.0,
-        "members": 773.0,
-        "yoy_delta": -5.0,
-        "yoy_pct": -0.006426735218508998,
+        "members": 777.0,
+        "yoy_delta": -1.0,
+        "yoy_pct": -0.0012853470437017994,
         "yoy_rank": 2.0,
-        "year_end_delta": -79.0,
-        "year_end_pct": -0.10219922380336352,
+        "year_end_delta": -75.0,
+        "year_end_pct": -0.09652509652509653,
         "year_end_rank": 4.0,
-        "total_youth_served": 781.0,
+        "total_youth_served": 785.0,
         "total_adults": 516.0,
         "syt_pct": 0.6623655913978495,
         "avg_metric": 1.6,
@@ -2481,7 +3639,7 @@
         "year_end_pct": -0.23323615160349853,
         "year_end_rank": 13.0,
         "total_youth_served": 680.0,
-        "total_adults": 298.0,
+        "total_adults": 297.0,
         "syt_pct": 0.9962546816479401,
         "avg_metric": 1.9069767441860466,
         "metric_0_2_count": 27.0,
@@ -2495,15 +3653,15 @@
       {
         "council": "Norwela Council 215",
         "units": 33.0,
-        "members": 673.0,
-        "yoy_delta": -428.0,
-        "yoy_pct": -0.3887375113533152,
+        "members": 672.0,
+        "yoy_delta": -429.0,
+        "yoy_pct": -0.3896457765667575,
         "yoy_rank": 16.0,
-        "year_end_delta": -402.0,
-        "year_end_pct": -0.5973254086181278,
+        "year_end_delta": -403.0,
+        "year_end_pct": -0.5997023809523809,
         "year_end_rank": 16.0,
-        "total_youth_served": 670.0,
-        "total_adults": 279.0,
+        "total_youth_served": 669.0,
+        "total_adults": 278.0,
         "syt_pct": 0.9786476868327402,
         "avg_metric": 1.7272727272727273,
         "metric_0_2_count": 24.0,
@@ -2521,15 +3679,15 @@
       {
         "council": "Louisiana Purchase Council 213",
         "units": 33.0,
-        "members": 542.0,
-        "yoy_delta": -104.0,
-        "yoy_pct": -0.1609907120743034,
+        "members": 540.0,
+        "yoy_delta": -106.0,
+        "yoy_pct": -0.16408668730650156,
         "yoy_rank": 14.0,
-        "year_end_delta": -115.0,
-        "year_end_pct": -0.21217712177121772,
+        "year_end_delta": -117.0,
+        "year_end_pct": -0.21666666666666667,
         "year_end_rank": 12.0,
-        "total_youth_served": 531.0,
-        "total_adults": 220.0,
+        "total_youth_served": 529.0,
+        "total_adults": 219.0,
         "syt_pct": 1.0,
         "avg_metric": 1.6363636363636365,
         "metric_0_2_count": 27.0,
@@ -2555,7 +3713,7 @@
         "year_end_pct": -0.18837675350701402,
         "year_end_rank": 10.0,
         "total_youth_served": 485.0,
-        "total_adults": 242.0,
+        "total_adults": 243.0,
         "syt_pct": 0.6245059288537549,
         "avg_metric": 1.6,
         "metric_0_2_count": 20.0,
@@ -2581,7 +3739,7 @@
         "year_end_pct": -0.34773218142548595,
         "year_end_rank": 15.0,
         "total_youth_served": 420.0,
-        "total_adults": 204.0,
+        "total_adults": 203.0,
         "syt_pct": 0.9943502824858758,
         "avg_metric": 1.5714285714285714,
         "metric_0_2_count": 27.0,
@@ -2624,24 +3782,24 @@
       },
       {
         "council": "Best Score",
-        "avg_metric": 2.8265895953757227,
+        "avg_metric": 2.82741935483871,
         "metric_0_2_count": 0,
         "metric_3_count": 0,
         "metric_4_5_count": 0,
         "metric_0_2_rate": null,
-        "metric_4_5_rate": 0.37572254335260113,
-        "ul_cc_trained_rate": 0.8323699421965318,
+        "metric_4_5_rate": 0.3699421965317919,
+        "ul_cc_trained_rate": 0.8208092485549133,
         "small_unit_rate": 0.7258064516129032
       },
       {
         "council": "CST 7 - Territory View",
-        "avg_metric": 2.416210295728368,
-        "metric_0_2_count": 937.0,
-        "metric_3_count": 442.0,
+        "avg_metric": 2.4227820372398687,
+        "metric_0_2_count": 936.0,
+        "metric_3_count": 443.0,
         "metric_4_5_count": 447.0,
-        "metric_0_2_rate": 0.5131434830230011,
+        "metric_0_2_rate": 0.5125958378970427,
         "metric_4_5_rate": 0.2447973713033954,
-        "ul_cc_trained_rate": 0.4687842278203724,
+        "ul_cc_trained_rate": 0.4709748083242059,
         "small_unit_rate": 0.6133625410733844
       },
       {

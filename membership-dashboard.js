@@ -2,6 +2,7 @@ const state = {
   data: null,
   monday: null,
   chartMetric: "members",
+  openServiceAreas: new Set(),
 };
 
 const fmt = new Intl.NumberFormat("en-US");
@@ -40,6 +41,61 @@ function statusClass(status) {
   if (status === "On Track") return "good";
   if (status === "Monitor") return "warn";
   return "bad";
+}
+
+function serviceAreaGroups(rows) {
+  const source = state.data.dashboard.service_areas || [];
+  const sourceByName = new Map(source.map((area, index) => [area.service_area, { ...area, index }]));
+  const groups = new Map();
+  for (const row of rows) {
+    const name = row.service_area || "Unassigned";
+    if (!groups.has(name)) {
+      const sourceRow = sourceByName.get(name) || {};
+      groups.set(name, {
+        name,
+        fieldDirector: sourceRow.field_director || row.service_area_field_director || "",
+        order: sourceRow.service_area_order ?? row.service_area_order ?? sourceRow.index ?? 99,
+        rows: [],
+      });
+    }
+    groups.get(name).rows.push(row);
+  }
+  return [...groups.values()].sort((a, b) => a.order - b.order || a.name.localeCompare(b.name));
+}
+
+function serviceAreaSummary(rows, key) {
+  if (!rows.length) return null;
+  if (key === "status") {
+    const counts = rows.reduce((acc, row) => {
+      acc[row.status] = (acc[row.status] || 0) + 1;
+      return acc;
+    }, {});
+    return Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
+  }
+  if (key === "avg_metric") {
+    const units = rows.reduce((total, row) => total + (row.units || 0), 0);
+    return units ? rows.reduce((total, row) => total + (row.avg_metric || 0) * (row.units || 0), 0) / units : null;
+  }
+  if (key === "yoy_pct") {
+    const lastYear = rows.reduce((total, row) => total + (row.last_year_members || 0), 0);
+    const delta = rows.reduce((total, row) => total + (row.yoy_delta || 0), 0);
+    return lastYear ? delta / lastYear : null;
+  }
+  if (key === "at_risk_rate") {
+    const units = rows.reduce((total, row) => total + (row.units || 0), 0);
+    const atRisk = rows.reduce((total, row) => total + (row.at_risk_units || 0), 0);
+    return units ? atRisk / units : null;
+  }
+  if (key === "assigned_pct") {
+    const units = rows.reduce((total, row) => total + (row.units || 0), 0);
+    const assigned = rows.reduce((total, row) => total + (row.assigned_pct || 0) * (row.units || 0), 0);
+    return units ? assigned / units : null;
+  }
+  if (key === "syt_pct" || key === "training_pct") {
+    const members = rows.reduce((total, row) => total + (row.members || 0), 0);
+    return members ? rows.reduce((total, row) => total + (row[key] || 0) * (row.members || 0), 0) / members : null;
+  }
+  return rows.reduce((total, row) => total + (row[key] || 0), 0);
 }
 
 function currentDistricts() {
@@ -381,7 +437,27 @@ function miniMeter(value, tone = "") {
 
 function renderDistrictRows() {
   const rows = currentDistricts().sort((a, b) => (b.at_risk_rate || 0) - (a.at_risk_rate || 0));
-  document.getElementById("districtRows").innerHTML = rows.map((row) => `
+  const forceOpen = Boolean(document.getElementById("districtSelect").value || document.getElementById("searchInput").value.trim());
+  document.getElementById("districtRows").innerHTML = serviceAreaGroups(rows).map((service) => {
+    const open = forceOpen || state.openServiceAreas.has(service.name);
+    const status = serviceAreaSummary(service.rows, "status");
+    const atRiskUnits = serviceAreaSummary(service.rows, "at_risk_units");
+    const units = serviceAreaSummary(service.rows, "units");
+    const serviceRow = `
+      <tr class="service-area-row" data-service-area="${esc(service.name)}" aria-expanded="${open ? "true" : "false"}">
+        <td><button class="service-toggle" type="button" data-service-area="${esc(service.name)}"><span class="disclosure">${open ? "-" : "+"}</span><strong>${esc(service.name)}</strong></button><div class="subtle">${n(service.rows.length)} districts · ${esc(service.fieldDirector || "No field director")}</div></td>
+        <td><span class="status ${statusClass(status)}">${esc(status)}</span></td>
+        <td class="num">${n(serviceAreaSummary(service.rows, "members"))}</td>
+        <td class="num">${sp(serviceAreaSummary(service.rows, "yoy_pct"))}</td>
+        <td class="num">${metric(serviceAreaSummary(service.rows, "avg_metric"))}</td>
+        <td class="num">${miniMeter(serviceAreaSummary(service.rows, "at_risk_rate"), "risk")}<div class="subtle">${n(atRiskUnits)} / ${n(units)}</div></td>
+        <td class="num">${miniMeter(serviceAreaSummary(service.rows, "assigned_pct"))}</td>
+        <td class="num">${p(serviceAreaSummary(service.rows, "syt_pct"))}</td>
+        <td class="num">${p(serviceAreaSummary(service.rows, "training_pct"))}</td>
+        <td>${esc(service.fieldDirector || "TBA")}<div class="subtle">Service Area</div></td>
+      </tr>
+    `;
+    const districtRows = open ? service.rows.map((row) => `
     <tr>
       <td><strong>${esc(row.district)}</strong><div class="subtle">${n(row.units)} units</div></td>
       <td><span class="status ${statusClass(row.status)}">${esc(row.status)}</span></td>
@@ -394,7 +470,9 @@ function renderDistrictRows() {
       <td class="num">${p(row.training_pct)}</td>
       <td>${esc(row.district_commissioner || "TBA")}<div class="subtle">${esc(row.field_exec || "")}</div></td>
     </tr>
-  `).join("");
+  `).join("") : "";
+    return serviceRow + districtRows;
+  }).join("");
 }
 
 function renderPriorityRows() {
@@ -514,6 +592,15 @@ function bindEvents() {
       state.chartMetric = button.dataset.chartMetric;
       renderDistrictChart();
     });
+  });
+
+  document.getElementById("districtRows").addEventListener("click", (event) => {
+    const button = event.target.closest(".service-toggle");
+    if (!button) return;
+    const name = button.dataset.serviceArea;
+    if (state.openServiceAreas.has(name)) state.openServiceAreas.delete(name);
+    else state.openServiceAreas.add(name);
+    renderDistrictRows();
   });
 }
 

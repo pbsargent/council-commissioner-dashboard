@@ -477,6 +477,37 @@ tbody tr:hover {
   background: rgba(45, 212, 191, .08);
 }
 
+.service-area-row {
+  background: rgba(45, 212, 191, .07);
+}
+
+.service-area-row td {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.service-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  padding: 0;
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+}
+
+.service-toggle .disclosure {
+  width: 20px;
+  height: 20px;
+  display: inline-grid;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--blue-700);
+  font-weight: 800;
+}
+
 .subtle {
   color: var(--muted);
   font-size: 12px;
