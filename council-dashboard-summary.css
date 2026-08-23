@@ -681,8 +681,19 @@ input {
   max-width: 100%;
   max-height: 560px;
   overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--line);
   border-radius: 8px;
+}
+
+.panel.detail-table {
+  max-height: none;
+}
+
+.panel.detail-table > .table-wrap {
+  max-height: clamp(240px, calc(100vh - 310px), 560px);
 }
 
 .table-wrap.short {
@@ -1411,7 +1422,11 @@ tbody tr:hover {
 
 .trend-table-wrap {
   max-width: 100%;
-  overflow-x: auto;
+  max-height: clamp(240px, calc(100vh - 310px), 560px);
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  -webkit-overflow-scrolling: touch;
   border: 1px solid var(--line);
   border-radius: 8px;
 }
@@ -1660,7 +1675,6 @@ tbody tr:hover {
   }
 
   .table-wrap {
-    max-height: none;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
   }
