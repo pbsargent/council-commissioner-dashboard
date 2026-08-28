@@ -162,6 +162,7 @@
                 <th class="num">Avg Metric</th>
                 <th class="num">At Risk</th>
                 <th class="num">Assigned</th>
+                <th class="num">Connections<br><span class="subtle">12 Mo.</span></th>
                 <th class="num">Official SYT</th>
                 <th class="num">Training</th>
                 <th>Commissioner</th>
@@ -289,10 +290,6 @@
           && (!district || row.district === district)
           && (!q || haystack.includes(q));
       });
-    }
-    function miniMeter(value, tone = "") {
-      const width = Math.max(0, Math.min(100, (value || 0) * 100));
-      return `<span class="mini-meter"><span class="meter"><span class="meter-fill ${tone}" style="width:${width}%"></span></span><span class="subtle">${p(value)}</span></span>`;
     }
     function ratePanelRows(rows, key) {
       return [...rows].sort((a, b) => (a[key] || 0) - (b[key] || 0)).slice(0, 5);
@@ -446,13 +443,14 @@
           <td class="num">${n(row.members)}</td>
           <td class="num">${sp(row.yoy_pct)}</td>
           <td class="num">${metric(row.avg_metric)}</td>
-          <td class="num">${miniMeter(row.at_risk_rate, "risk")}</td>
-          <td class="num">${miniMeter(row.assigned_pct)}</td>
+          <td class="num">${n(row.at_risk_units)} of ${n(row.units)}<div class="subtle">${p(row.at_risk_rate)}</div></td>
+          <td class="num">${n(row.assigned_units)} of ${n(row.units)}<div class="subtle">${p(row.assigned_pct)}</div></td>
+          <td class="num"><strong>${n(row.connections_12_months)}</strong></td>
           <td class="num">${p(row.syt_pct)}</td>
           <td class="num">${p(row.training_pct)}</td>
           <td>${esc(row.district_commissioner || "N/A")}<div class="subtle">${esc(row.field_exec || "")}</div></td>
         </tr>
-      `).join("") || '<tr><td colspan="11"><div class="empty-state">No matching districts.</div></td></tr>';
+      `).join("") || '<tr><td colspan="12"><div class="empty-state">No matching districts.</div></td></tr>';
     }
     function renderTraining() {
       const c = state.data.dashboard.council;
@@ -464,6 +462,7 @@
       const sources = [
         ["Canonical dashboard data", "Council Dashboard Summary data/latest.json", data.generated_at, DATA_URL],
         ["Dashboard workbook", data.dashboard.source_name, data.dashboard.source_mtime, data.dashboard.source],
+        ["Connection history", data.dashboard.connection_history?.source_name, data.dashboard.connection_history?.source_mtime, data.dashboard.connection_history?.source],
         ["CST7 metric workbook", data.cst.source_name, data.cst.source_mtime, data.cst.source],
         ["Service Area mapping", data.dashboard.service_area_source || "Bill Kohl email, Districts and Service Area", data.generated_at, ""],
       ];
