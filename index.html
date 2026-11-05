@@ -469,7 +469,7 @@
       document.getElementById("sourcesGrid").innerHTML = sources.map(([label, name, mtime, path, workbookUrl]) => `
         <article class="source-card">
           <strong>${esc(label)}</strong>
-          <p>${workbookUrl ? `<a href="${esc(workbookUrl)}" target="_blank" rel="noopener noreferrer">${esc(name || "Open current Excel source")}</a>` : esc(name || "n/a")}</p>
+          <p>${workbookUrl ? `<a href="${esc(workbookUrl)}" target="_blank" rel="noopener noreferrer">Open browser workbook snapshot</a>` : esc(name || "n/a")}</p>
           ${workbookUrl ? `<p>Browser snapshot with fixed values. Snapshot date is recorded on the Membership tab. <a href="https://drive.google.com/uc?export=download&amp;id=1niYkfoHRSG2gbFm1O67bGzlmrViV2qZ-" rel="noopener noreferrer">Download native Excel source</a> for formulas, interactive selectors and refresh.</p>` : ""}
           <p>Updated ${esc(formatDate(mtime))}</p>
           <p class="subtle">${esc(path || "")}</p>
