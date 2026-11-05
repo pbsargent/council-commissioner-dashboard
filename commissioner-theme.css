@@ -119,3 +119,16 @@ body[data-page="commissioner"] .hero h1 {
     min-height: 0;
   }
 }
+
+/* Portal destinations stay consistent; overview section shortcuts stay in main. */
+.commissioner-navigation{align-content:start;overflow-y:auto;min-height:0}
+.commissioner-navigation .nav-home{display:flex;min-height:44px;font-size:14px}
+.nav-membership{display:grid;gap:6px;margin:4px 0}
+.nav-membership .nav-label{margin:5px 11px 0;color:rgba(255,255,255,.62);font-family:inherit;font-size:11px;font-weight:750;letter-spacing:.06em;text-transform:uppercase}
+.nav-membership .nav-children{margin-left:11px;padding-left:8px}
+.commissioner-navigation a[aria-current="page"]{color:#fff;background:rgba(44,127,248,.42);box-shadow:inset 3px 0 0 var(--cac-gold)}
+.overview-section-nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:18px 0 24px;padding:13px 16px;border:1px solid var(--line);border-radius:8px;background:var(--panel);overflow:visible;grid-auto-flow:unset}
+.overview-section-nav>span{font-size:12px;font-weight:750;color:var(--muted);margin-right:4px}
+.overview-section-nav a{display:inline-flex;min-height:36px;align-items:center;padding:7px 10px;font-size:12px;color:var(--ink);white-space:normal;background:var(--panel-2);border:1px solid var(--line)}
+.overview-section-nav a:hover,.overview-section-nav a:focus-visible,.overview-section-nav a.is-current{color:var(--ink);border-color:var(--cac-gold);background:var(--panel-2);outline:2px solid var(--cac-gold);outline-offset:1px}
+@media(max-width:760px){.overview-section-nav{gap:7px;padding:11px}.overview-section-nav>span{flex-basis:100%}.overview-section-nav a{flex:1 1 145px;justify-content:center}}

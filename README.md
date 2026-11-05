@@ -21,3 +21,6 @@ Membership History uses fifteen hash-bound aggregate MMR exports: December 2016�
 
 ## District unit review
 Unit Support groups the complete filtered unit detail by district. Districts start collapsed, show their matching-unit count and use native keyboard-accessible disclosures. Expand/collapse all and per-district controls affect presentation only; filters, totals, unavailable values, unit links and complete filtered CSV remain unchanged. Open districts are retained while filters change.
+
+## Commissioner navigation
+All five portal pages share the same destination menu: Overview, Unit Review, Membership (Historical Trends and Member Persistence), Measures & Sources, and the external Council Dashboard. The current page is marked with aria-current=page; URL paths and existing bookmarks stay unchanged. Overview-only section shortcuts live in its separate “On this page” navigation, with aria-current=location for the current section. Mobile Menu supports Escape and closes on destination selection.
