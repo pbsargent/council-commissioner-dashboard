@@ -4,13 +4,13 @@ from build_membership_history import parse,build,persistence
 class HistoricalTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
-  cls.src=Path(__file__).resolve().parents[2]/'commissioner-portal-update-evidence-20261105'
+  cls.src=Path(__file__).resolve().parents[2]/'commissioner-history-portal-evidence-20261105'
  def mutation(self,fn):
   with tempfile.TemporaryDirectory(prefix='commissioner-history-') as td:
    p=Path(td)/'x.csv';rows=list(csv.reader(io.StringIO((self.src/'Historical Data/MonthlyMembership_202610.csv').read_text())))
    fn(rows);f=io.StringIO();csv.writer(f).writerows(rows);p.write_text(f.getvalue());return parse(p,'202610')
  def test_actual_complete_council_and_program_reconciliation(self):
-  v=build(self.src/'Historical Data');self.assertEqual(len(v['periods']),2)
+  v=build(self.src/'Historical Data');self.assertEqual(len(v['periods']),15)
  def test_wrong_month(self):
   with self.assertRaises(ValueError):parse(self.src/'Historical Data/MonthlyMembership_202610.csv','202510')
  def test_wrong_council(self):
@@ -36,4 +36,23 @@ class HistoricalTests(unittest.TestCase):
   with tempfile.TemporaryDirectory(prefix='commissioner-cohort-') as td:
    p=Path(td)/'bad.json';p.write_text(json.dumps(v))
    with self.assertRaises(ValueError):persistence(p)
+ def test_strict_parser_still_refuses_older_district_gap(self):
+  with self.assertRaises(ValueError):parse(self.src/'Historical Data/MonthlyMembership_202012.csv','202012')
+ def test_exact_exploring_residuals_disclosed(self):
+  p=parse(self.src/'Historical Data/MonthlyMembership_202012.csv','202012',allow_historical_exploring=True)
+  self.assertEqual(next(x['unrepresented_in_district_rows'] for x in p['district_residuals'] if x['program']=='Exploring' and x['field']=='youth'),160)
+ def test_extra_or_diagnostic_period_refused(self):
+  with tempfile.TemporaryDirectory(prefix='history-manifest-') as td:
+   p=Path(td);v=json.loads((self.src/'Historical Data/history-sources.json').read_text());v['sources'][0]['month']='201512';(p/'history-sources.json').write_text(json.dumps(v))
+   with self.assertRaises(ValueError):build(p)
+ def test_manifest_hash_drift_refused(self):
+  with tempfile.TemporaryDirectory(prefix='history-manifest-') as td:
+   p=Path(td);shutil.copytree(self.src/'Historical Data',p/'sources');v=json.loads((p/'sources/history-sources.json').read_text());v['sources'][0]['sha256']='0'*64;(p/'sources/history-sources.json').write_text(json.dumps(v))
+   with self.assertRaises(ValueError):build(p/'sources')
+ def test_missing_period_refused(self):
+  with tempfile.TemporaryDirectory(prefix='history-manifest-') as td:
+   p=Path(td);v=json.loads((self.src/'Historical Data/history-sources.json').read_text());v['sources'].pop();(p/'history-sources.json').write_text(json.dumps(v))
+   with self.assertRaises(ValueError):build(p)
+ def test_actual_year_end_and_quarter_coverage(self):
+  v=build(self.src/'Historical Data');months=[p['month'] for p in v['periods']];self.assertEqual(len([m for m in months if m.endswith('12')]),10);self.assertTrue(all(m in months for m in ['202603','202606','202609']));self.assertNotIn('201512',months)
 if __name__=='__main__':unittest.main()
